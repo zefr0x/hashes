@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+    <metadata_license>CC-BY-SA-4.0</metadata_license>
+    <project_license>GPL-3.0-only</project_license>
+    <id>io.github.zefr0x.hash_identifier</id>
+    <name>Hash Identifier</name>
+    <summary>Hash algorithm identification GUI</summary>
+    <description>
+        <p>Simple, easy to use, and updated hash algorithm identification GUI.</p>
+    </description>
+    <developer_name translatable="no">zefr0x</developer_name>
+    <provides>
+        <binary>hash_identifier</binary>
+    </provides>
+    <launchable type="desktop-id">io.github.zefr0x.hash_identifier.desktop</launchable>
+    <content_rating type="oars-1.0"></content_rating>
+    <translation type="gettext" source_locale="en_GB">io.github.zefr0x.hash_identifier</translation>
+    <categories>
+        <category>Development</category>
+    </categories>
+    <keywords>
+        <keyword>hash</keyword>
+        <keyword>hashcat</keyword>
+        <keyword>john</keyword>
+        <keyword>gtk</keyword>
+        <keyword>adwaita</keyword>
+    </keywords>
+    <!-- TODO: Add branding colors. -->
+    <!-- <branding> -->
+    <!--     <color type="primary" scheme_preference="light">#ffffff</color> -->
+    <!--     <color type="primary" scheme_preference="dark">#000000</color> -->
+    <!-- </branding> -->
+    <url type="homepage">https://github.com/zefr0x/hash_identifier</url>
+    <url type="help">https://github.com/zefr0x/hash_identifier</url>
+    <url type="bugtracker">https://github.com/zefr0x/hash_identifier/issues</url>
+    <url type="translate">https://github.com/zefr0x/hash_identifier/blob/main/CONTRIBUTING.md#translation</url>
+    <url type="vcs-browser">https://github.com/zefr0x/hash_identifier</url>
+    <url type="contribute">https://github.com/zefr0x/hash_identifier/blob/main/CONTRIBUTING.md</url>
+    <releases>
+        <!-- TODO: Create release. -->
+        <!-- <release version="0.1.0" date="2022-xx-xx" urgency="low"> -->
+        <!--     <url>https://github.com/zefr0x/hash_identifier/blob/main/CHANGELOG.md#010</url> -->
+        <!-- </release> -->
+    </releases>
+    <!-- TODO: Add screenshots. -->
+    <!-- <screenshots> -->
+    <!--     <screenshot type="default"> -->
+    <!--         <caption></caption> -->
+    <!--         <image type="source" width="1600" height="900"></image> -->
+    <!--     </screenshot> -->
+    <!-- </screenshots> -->
+</component>

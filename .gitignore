@@ -1,0 +1,5 @@
+.mypy_cache
+__pycache__
+builddir
+.coverage
+htmlcov

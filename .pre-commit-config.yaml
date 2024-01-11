@@ -1,0 +1,75 @@
+ci:
+  skip: [pip-compile]
+
+repos:
+  # General
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-xml
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: name-tests-test
+      - id: trailing-whitespace
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        args:
+          - "--check-untyped-defs"
+          - "--ignore-missing-imports"
+        additional_dependencies:
+          - PyGObject-stubs
+          - name-that-hash
+  # Python
+  - repo: https://github.com/PyCQA/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        additional_dependencies:
+          - pep8-naming
+          - "git+https://github.com/zer0-x/flake8-typehinting#egg=flake8-typehinting"
+          - flake8-builtins
+          - flake8-bugbear
+          - flake8-comprehensions
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v3.12.0
+    hooks:
+      - id: reorder-python-imports
+  - repo: https://github.com/PyCQA/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+  # Prettier
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
+    hooks:
+      - id: prettier
+        types_or: [markdown, css]
+  - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: v2.12.0
+    hooks:
+      - id: pretty-format-ini
+  # PIP requirements
+  - repo: https://github.com/jazzband/pip-tools
+    rev: 7.3.0
+    hooks:
+      - id: pip-compile
+        name: pip-compile requirements.in
+        args:
+          - --resolver=backtracking
+          - --generate-hashes
+          - requirements/requirements.in
+        files: ^requirements/requirements.in$
+      - id: pip-compile
+        name: pip-compile requirements-dev.in
+        args:
+          - --resolver=backtracking
+          - --generate-hashes
+          - requirements/requirements-dev.in
+        files: ^requirements/requirements-dev.in$

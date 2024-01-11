@@ -1,0 +1,4 @@
+data/io.github.zefr0x.hash_identifier.desktop.in
+data/io.github.zefr0x.hash_identifier.metainfo.xml.in
+hash_identifier/ui/main.py
+hash_identifier/ui/main_window.py

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.5
+Type=Application
+Name=Hash Identifier
+Comment=Simple hash algorithm identification
+GenericName=Hash Identifier
+Exec=hash_identifier
+SingleMainWindow=true
+Icon=io.github.zefr0x.hash_identifier
+Terminal=false
+Categories=Development
+Keywords=hash;hashcat;john;gtk;
