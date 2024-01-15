@@ -55,3 +55,4 @@ TODO...
 
 - **[Name-That-Hash](https://github.com/HashPals/Name-That-Hash)** - For providing an API first and modern hash identification system.
 - **[Bottles](https://github.com/bottlesdevs/Bottles)** - For showing how to deal with a python project using [Meson](https://mesonbuild.com/).
+- **[Dialect](https://github.com/dialect-app/dialect)** - For showing how to deal with CLI in python PyGObject application.
