@@ -9,4 +9,4 @@ SingleMainWindow=true
 Icon=io.github.zefr0x.hash_identifier
 Terminal=false
 Categories=Development
-Keywords=hash;hashcat;john;gtk;
+Keywords=hash;hashcat;john;detect;identify
