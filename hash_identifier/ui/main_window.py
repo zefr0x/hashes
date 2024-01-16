@@ -5,7 +5,6 @@ import gi
 from name_that_hash.runner import api_return_hashes_as_dict
 
 from .utils import clipboard_clauser
-from hash_identifier.__about__ import APP_DESCRIPTION
 from hash_identifier.__about__ import APP_DESIGNERS_LIST
 from hash_identifier.__about__ import APP_DEVELOPERS_LIST
 from hash_identifier.__about__ import APP_ID
@@ -155,7 +154,7 @@ class HashIdentifierWindow(Adw.ApplicationWindow):
             button = Gtk.Button(
                 child=Adw.ButtonContent(
                     icon_name="edit-copy-symbolic",
-                    label="Hashcat",
+                    label=_("Hashcat"),
                     tooltip_text=hashcat_id,
                 ),
                 css_classes=("flat",),
@@ -169,7 +168,7 @@ class HashIdentifierWindow(Adw.ApplicationWindow):
             button = Gtk.Button(
                 child=Adw.ButtonContent(
                     icon_name="edit-copy-symbolic",
-                    label="John",
+                    label=_("John"),
                     tooltip_text=john_id,
                 ),
                 css_classes=("flat",),
@@ -194,7 +193,7 @@ class HashIdentifierWindow(Adw.ApplicationWindow):
             transient_for=self,
             icon_name=APP_ID,
             application_name=self.get_title() or "",
-            comments=APP_DESCRIPTION,
+            comments=_("Simple hash algorithm identification interface."),
             developers=APP_DEVELOPERS_LIST,
             designers=APP_DESIGNERS_LIST,
             # TRANSLATORS: The string may contain email addresses and URLs.
