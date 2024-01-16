@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.github.zefr0x.hash_identifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: io.github.zefr0x.hash_identifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-16 17:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.zefr0x.hash_identifier.desktop.in:5
+#: data/io.github.zefr0x.hash_identifier.desktop.in:7
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:6
+#: hash_identifier/ui/main_window.py:28
+msgid "Hash Identifier"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.desktop.in:6
+msgid "Simple hash algorithm identification"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.desktop.in:13
+msgid "hash;hashcat;john;detect;identify"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:7
+msgid "Hash algorithm identification GUI"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:9
+msgid "Simple, easy to use, and updated hash algorithm identification GUI."
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:11
+msgid "zefr0x"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:22
+msgid "hash"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:23
+msgid "hashcat"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:24
+msgid "john"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:25
+msgid "detect"
+msgstr ""
+
+#: data/io.github.zefr0x.hash_identifier.metainfo.xml.in:26
+msgid "identify"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:43
+msgid "Enter a hash text"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:57
+msgid "Waiting for input…"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:59
+msgid "Can't find an algorithm that matches your input!"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:146
+msgid "<b>Extended!</b>"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:157
+msgid "Hashcat"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:171
+msgid "John"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:196
+msgid "Simple hash algorithm identification interface."
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:200
+msgid "translator-credits"
+msgstr ""
+
+#: hash_identifier/ui/main_window.py:208
+msgid "External Libraries"
+msgstr ""
