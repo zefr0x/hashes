@@ -57,8 +57,8 @@ class HashIdentifier(Adw.Application):
         # Pass CLI args to the main window
         try:
             self.window.identify_hash(self.argv["hash"])  # type: ignore
-        except (AttributeError, KeyError) as e:
-            print(e)
+        except (AttributeError, KeyError):
+            pass
 
 
 def main_ui(argv: Sequence[str]) -> int:

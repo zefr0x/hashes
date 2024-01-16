@@ -14,7 +14,7 @@ def clipboard_clauser(text: str) -> Callable:
         """Clipboard setter."""
         try:
             Gdk.Display.get_default().get_clipboard().set(text)  # type: ignore
-        except AttributeError as e:
-            print(e)
+        except AttributeError:
+            print("Error: Can't find GDK display to access clipboard.")
 
     return handler
