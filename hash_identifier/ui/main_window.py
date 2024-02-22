@@ -31,21 +31,26 @@ class HashIdentifierWindow(Adw.ApplicationWindow):
         )
 
         # Main layout
-        main_layout = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        main_layout = Adw.ToolbarView()
         self.set_content(main_layout)
 
         # Window header
-        main_layout.append(self.__build_header())
+        main_layout.add_top_bar(self.__build_header())
+
+        # Content layout
+        main_content = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        main_layout.set_content(main_content)
 
         # Hash input filed
         self._hash_input_field = Gtk.Entry(
             primary_icon_name="dialog-password-symbolic",
             placeholder_text=_("Enter a hash text"),
-            margin_start=30,
-            margin_end=30,
-            margin_top=20,
+            margin_start=12,
+            margin_end=12,
+            margin_top=6,
+            margin_bottom=6,
         )
-        main_layout.append(self._hash_input_field)
+        main_layout.add_top_bar(self._hash_input_field)
         self._hash_input_field.connect("changed", self.__hash_input_changed)
         # Move focus to the input when window first opened
         self._hash_input_field.grab_focus()
@@ -61,7 +66,7 @@ class HashIdentifierWindow(Adw.ApplicationWindow):
 
         # Body scrollable bin
         self._body_bin = Gtk.ScrolledWindow(hexpand=True, vexpand=True)
-        main_layout.append(self._body_bin)
+        main_content.append(self._body_bin)
 
     def __build_header(self) -> Adw.HeaderBar:
         """Create the header bar for the application."""
