@@ -20,7 +20,7 @@ Simple hash algorithm identification [Linux](https://en.wikipedia.org/wiki/Linux
 ## Features
 
 - 📺 **Popularity Ratings** - Most popular hashes showed first.
-- 👵 **Updated\!**
+- 👵 **Updated\!** - New hash algorithm database is used in the identification process.
 - 🚫 Microsoft Windows is not supported.
 
 ## Requirements

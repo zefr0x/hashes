@@ -2,7 +2,7 @@
 Version=1.5
 Type=Application
 Name=Hash Identifier
-Comment=Simple hash algorithm identification
+Comment=Identify hashing algorithms
 GenericName=Hash Identifier
 Exec=hash_identifier
 SingleMainWindow=true

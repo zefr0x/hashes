@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component type="desktop">
+<component type="desktop-application">
     <metadata_license>CC-BY-SA-4.0</metadata_license>
     <project_license>GPL-3.0-only</project_license>
     <id>io.github.zefr0x.hash_identifier</id>
     <name>Hash Identifier</name>
-    <summary>Hash algorithm identification GUI</summary>
+    <summary>Identify hashing algorithm</summary>
     <description>
-        <p>Simple, easy to use, and updated hash algorithm identification GUI.</p>
+        <p>This utility lets you conveniently find out what hashing algorithm has been used on a particular string.</p>
+        <p>Features:</p>
+        <ul>
+            <li>📺 Popularity Ratings - Most popular hashes showed first.</li>
+            <li>👵 Updated! - New hash algorithm database is used in the identification process.</li>
+        </ul>
     </description>
-    <developer_name translatable="no">zefr0x</developer_name>
-    <provides>
-        <binary>hash_identifier</binary>
-    </provides>
+    <developer id="io.github.zefr0x">
+        <name translatable="no">zefr0x</name>
+    </developer>
     <launchable type="desktop-id">io.github.zefr0x.hash_identifier.desktop</launchable>
     <content_rating type="oars-1.0"></content_rating>
     <translation type="gettext" source_locale="en_GB">io.github.zefr0x.hash_identifier</translation>

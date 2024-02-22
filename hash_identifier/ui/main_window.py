@@ -5,7 +5,7 @@ import gi
 from name_that_hash.runner import api_return_hashes_as_dict
 
 from .utils import clipboard_clauser
-from hash_identifier.__about__ import APP_DESIGNERS_LIST
+from hash_identifier.__about__ import APP_AUTHOR
 from hash_identifier.__about__ import APP_DEVELOPERS_LIST
 from hash_identifier.__about__ import APP_ID
 from hash_identifier.__about__ import APP_VERSION
@@ -191,13 +191,13 @@ class HashIdentifierWindow(Adw.ApplicationWindow):
         about_window = Adw.AboutWindow(
             application=self.get_application(),
             transient_for=self,
-            icon_name=APP_ID,
+            application_icon=APP_ID,
             application_name=self.get_title() or "",
-            comments=_("Simple hash algorithm identification interface."),
+            developer_name=APP_AUTHOR,
             developers=APP_DEVELOPERS_LIST,
-            designers=APP_DESIGNERS_LIST,
             # TRANSLATORS: The string may contain email addresses and URLs.
             translator_credits=_("translator-credits"),
+            copyright="© 2024 " + APP_AUTHOR,
             issue_url=BUG_REPORT_URL,
             license_type=Gtk.License.GPL_3_0_ONLY,
             version=APP_VERSION,
