@@ -11,3 +11,4 @@ APP_AUTHOR = "zefr0x"
 APP_LICENSE = "GPL-3.0"
 
 APP_DEVELOPERS_LIST = ("zefr0x https://github.com/zefr0x",)
+APP_ARTISTS_LIST = ("Brage Fuglseth https://bragefuglseth.dev",)

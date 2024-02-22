@@ -5,6 +5,7 @@ import gi
 from name_that_hash.runner import api_return_hashes_as_dict
 
 from .utils import clipboard_clauser
+from hashes.__about__ import APP_ARTISTS_LIST
 from hashes.__about__ import APP_AUTHOR
 from hashes.__about__ import APP_DEVELOPERS_LIST
 from hashes.__about__ import APP_ID
@@ -200,6 +201,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
             application_name=self.get_title() or "",
             developer_name=APP_AUTHOR,
             developers=APP_DEVELOPERS_LIST,
+            artists=APP_ARTISTS_LIST,
             # TRANSLATORS: The string may contain email addresses and URLs.
             translator_credits=_("translator-credits"),
             copyright="© 2024 " + APP_AUTHOR,

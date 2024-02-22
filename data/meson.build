@@ -32,3 +32,6 @@ if appstream_util.found()
     args: ['validate', appstream_file]
   )
 endif
+
+# Other meson.build sub files
+subdir('icons/')
