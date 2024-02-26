@@ -3,9 +3,9 @@ from typing import Sequence
 
 import gi
 
-from .main_window import HashIdentifierWindow
-from hash_identifier.__about__ import APP_ID
-from hash_identifier.__about__ import APP_NAME
+from .main_window import HashesMainWindow
+from hashes.__about__ import APP_ID
+from hashes.__about__ import APP_NAME
 
 gi.require_version("Adw", "1")
 from gi.repository import Adw  # noqa: E402
@@ -13,7 +13,7 @@ from gi.repository import GLib  # noqa: E402
 from gi.repository import Gio  # noqa: E402
 
 
-class HashIdentifier(Adw.Application):
+class Hashes(Adw.Application):
     """The Main application class."""
 
     def __init__(self) -> None:
@@ -50,7 +50,7 @@ class HashIdentifier(Adw.Application):
         self.window = self.props.active_window
 
         if not self.window:
-            self.window = HashIdentifierWindow(self)
+            self.window = HashesMainWindow(self)
 
         self.window.present()
 
@@ -63,5 +63,5 @@ class HashIdentifier(Adw.Application):
 
 def main_ui(argv: Sequence[str]) -> int:
     """Launch the UI with arguments."""
-    app = HashIdentifier()
+    app = Hashes()
     return app.run(list(argv))

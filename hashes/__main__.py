@@ -18,7 +18,7 @@ gettext.textdomain(APP_ID)
 
 def main() -> int:
     """Entry point for the application."""
-    from hash_identifier.ui.main import main_ui
+    from hashes.ui.main import main_ui
 
     main_ui(sys.argv)
 

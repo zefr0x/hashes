@@ -1,12 +1,12 @@
 [Desktop Entry]
 Version=1.5
 Type=Application
-Name=Hash Identifier
+Name=Hashes
 Comment=Identify hashing algorithms
 GenericName=Hash Identifier
-Exec=hash_identifier
+Exec=hashes
 SingleMainWindow=true
-Icon=io.github.zefr0x.hash_identifier
+Icon=io.github.zefr0x.hashes
 Terminal=false
 Categories=Development
 Keywords=hash;hashcat;john;detect;identify

@@ -1,4 +1,4 @@
-project_name := "hash_identifier"
+project_name := "hashes"
 
 alias t := test
 alias r := run

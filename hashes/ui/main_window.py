@@ -5,12 +5,12 @@ import gi
 from name_that_hash.runner import api_return_hashes_as_dict
 
 from .utils import clipboard_clauser
-from hash_identifier.__about__ import APP_AUTHOR
-from hash_identifier.__about__ import APP_DEVELOPERS_LIST
-from hash_identifier.__about__ import APP_ID
-from hash_identifier.__about__ import APP_VERSION
-from hash_identifier.__about__ import BUG_REPORT_URL
-from hash_identifier.__about__ import PROJECT_HOME_PAGE_URL
+from hashes.__about__ import APP_AUTHOR
+from hashes.__about__ import APP_DEVELOPERS_LIST
+from hashes.__about__ import APP_ID
+from hashes.__about__ import APP_VERSION
+from hashes.__about__ import BUG_REPORT_URL
+from hashes.__about__ import PROJECT_HOME_PAGE_URL
 
 gi.require_version("Adw", "1")
 gi.require_version("Gtk", "4.0")
@@ -18,14 +18,14 @@ from gi.repository import Adw  # noqa: E402
 from gi.repository import Gtk  # noqa: E402
 
 
-class HashIdentifierWindow(Adw.ApplicationWindow):
+class HashesMainWindow(Adw.ApplicationWindow):
     """Main window."""
 
     def __init__(self, application: Adw.Application) -> None:
         """Initialize main window."""
         super().__init__(
             application=application,
-            title=_("Hash Identifier"),
+            title=_("Hashes"),
             default_width=500,
             default_height=800,
         )

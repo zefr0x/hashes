@@ -1,5 +1,5 @@
 pkgdatadir = libdir / APP_ID
-main_moduledir = pkgdatadir / 'hash_identifier'
+main_moduledir = pkgdatadir / 'hashes'
 
 python = import('python')
 

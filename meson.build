@@ -1,12 +1,12 @@
 project(
-  'hash_identifier',
+  'hashes',
   version : '1.0.0',
   license : 'GPL3',
   default_options : ['warning_level=2'],
 )
 
-APP_ID = 'io.github.zefr0x.hash_identifier'
-APP_BIN = 'hash_identifier'
+APP_ID = 'io.github.zefr0x.hashes'
+APP_BIN = 'hashes'
 APP_VERSION = '1.0.0'
 
 # Get options
@@ -34,4 +34,4 @@ gnome.post_install(
 subdir('data/')
 subdir('assets/')
 subdir('po/')
-subdir('hash_identifier/')
+subdir('hashes/')

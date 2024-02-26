@@ -2,8 +2,8 @@
 <component type="desktop-application">
     <metadata_license>CC-BY-SA-4.0</metadata_license>
     <project_license>GPL-3.0-only</project_license>
-    <id>io.github.zefr0x.hash_identifier</id>
-    <name>Hash Identifier</name>
+    <id>io.github.zefr0x.hashes</id>
+    <name>Hashes</name>
     <summary>Identify hashing algorithm</summary>
     <description>
         <p>This utility lets you conveniently find out what hashing algorithm has been used on a particular string.</p>
@@ -16,9 +16,9 @@
     <developer id="io.github.zefr0x">
         <name translatable="no">zefr0x</name>
     </developer>
-    <launchable type="desktop-id">io.github.zefr0x.hash_identifier.desktop</launchable>
+    <launchable type="desktop-id">io.github.zefr0x.hashes.desktop</launchable>
     <content_rating type="oars-1.0"></content_rating>
-    <translation type="gettext" source_locale="en_GB">io.github.zefr0x.hash_identifier</translation>
+    <translation type="gettext" source_locale="en_GB">io.github.zefr0x.hashes</translation>
     <categories>
         <category>Development</category>
     </categories>
@@ -34,16 +34,16 @@
     <!--     <color type="primary" scheme_preference="light">#ffffff</color> -->
     <!--     <color type="primary" scheme_preference="dark">#000000</color> -->
     <!-- </branding> -->
-    <url type="homepage">https://github.com/zefr0x/hash_identifier</url>
-    <url type="help">https://github.com/zefr0x/hash_identifier</url>
-    <url type="bugtracker">https://github.com/zefr0x/hash_identifier/issues</url>
-    <url type="translate">https://github.com/zefr0x/hash_identifier/blob/main/CONTRIBUTING.md#translation</url>
-    <url type="vcs-browser">https://github.com/zefr0x/hash_identifier</url>
-    <url type="contribute">https://github.com/zefr0x/hash_identifier/blob/main/CONTRIBUTING.md</url>
+    <url type="homepage">https://github.com/zefr0x/hashes</url>
+    <url type="help">https://github.com/zefr0x/hashes</url>
+    <url type="bugtracker">https://github.com/zefr0x/hashes/issues</url>
+    <url type="translate">https://github.com/zefr0x/hashes/blob/main/CONTRIBUTING.md#translation</url>
+    <url type="vcs-browser">https://github.com/zefr0x/hashes</url>
+    <url type="contribute">https://github.com/zefr0x/hashes/blob/main/CONTRIBUTING.md</url>
     <releases>
         <!-- TODO: Create release. -->
-        <!-- <release version="0.1.0" date="2022-xx-xx" urgency="low"> -->
-        <!--     <url>https://github.com/zefr0x/hash_identifier/blob/main/CHANGELOG.md#010</url> -->
+        <!-- <release version="1.0.0" date="2024-xx-xx" urgency="low"> -->
+        <!--     <url>https://github.com/zefr0x/hashes/blob/main/CHANGELOG.md#100</url> -->
         <!-- </release> -->
     </releases>
     <!-- TODO: Add screenshots. -->

@@ -8,15 +8,15 @@ You can use [Gtranslator](https://flathub.org/apps/org.gnome.Gtranslator) or [Lo
 >
 > Source: https://wiki.archlinux.org/title/locale#Generating_locales
 
-2. Copy [`io.github.zefr0x.hash_identifier.pot`](io.github.zefr0x.hash_identifier.pot) to `<LOCALE CODE>.po`
+2. Copy [`io.github.zefr0x.hashes.pot`](io.github.zefr0x.hashes.pot) to `<LOCALE CODE>.po`
 3. Add the locale code to the [`LINGUAS`](LINGUAS) file in an alphabetical order.
 
 ## Management Using Meson
 
 ### Generate the `.pot` file
 
-Run the `io.github.zefr0x.hash_identifier-pot` compile target.
+Run the `io.github.zefr0x.hashes-pot` compile target.
 
 ### Update `.po` files from current `.pot` file
 
-Run the `io.github.zefr0x.hash_identifier-update-po` compile target.
+Run the `io.github.zefr0x.hashes-update-po` compile target.

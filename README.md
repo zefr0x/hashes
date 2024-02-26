@@ -1,6 +1,6 @@
 <div align = center>
 
-<h1>Hash Identifier</h1>
+<h1>Hashes</h1>
 
 Simple hash algorithm identification [Linux](https://en.wikipedia.org/wiki/Linux) [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface).
 
@@ -41,8 +41,8 @@ TODO...
 > You need python modules listed in [`requirements/requirements.in`](requirements/requirements.in) installed in your python environment.
 
 ```shell
-git clone https://github.com/zefr0x/hash_identifier.git
-cd hash_identifier
+git clone https://github.com/zefr0x/hashes.git
+cd hashes
 meson setup builddir
 meson install -C builddir
 ```

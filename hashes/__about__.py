@@ -1,10 +1,10 @@
 """Some information about the package."""
 
 APP_ID = "@APP_ID@"
-APP_NAME = "Hash Identifier"
+APP_NAME = "Hashes"
 
-PROJECT_HOME_PAGE_URL = "https://github.com/zefr0x/hash_identifier"
-BUG_REPORT_URL = "https://github.com/zefr0x/hash_identifier/issues/new/choose"
+PROJECT_HOME_PAGE_URL = "https://github.com/zefr0x/hashes"
+BUG_REPORT_URL = "https://github.com/zefr0x/hashes/issues/new/choose"
 
 APP_VERSION = "@APP_VERSION@"
 APP_AUTHOR = "zefr0x"

@@ -1,4 +1,4 @@
-ui_moduledir = pkgdatadir / 'hash_identifier' / 'ui'
+ui_moduledir = pkgdatadir / 'hashes' / 'ui'
 
 sources = [
   '__init__.py',

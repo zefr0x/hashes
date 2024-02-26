@@ -2,7 +2,7 @@
 
 ## Bug report
 
-For now [GitHub bug traker](https://github.com/zefr0x/hash_identifier/issues) is used for this project.
+For now [GitHub bug traker](https://github.com/zefr0x/hashes/issues) is used for this project.
 
 We aim to be user friendly, so if you have any issue or suggestion for the [UI](https://en.wikipedia.org/wiki/User_interface_design)/[UX](https://en.wikipedia.org/wiki/User_experience_design) or about the [application packging](<https://en.wikipedia.org/wiki/Package_(package_management_system)>), please tell us, we appreciate it.
 
@@ -21,7 +21,7 @@ We aim to be user friendly, so if you have any issue or suggestion for the [UI](
 First clone the git repository:
 
 ```
-git clone https://github.com/zefr0x/hash_identifier.git
+git clone https://github.com/zefr0x/hashes.git
 ```
 
 For development you are recomended to use [pip-tools](https://pip-tools.rtfd.io/) for reproducing the same environment.
@@ -49,7 +49,7 @@ pip-sync requirements/{requirements,requirements-dev}.txt
 4. Then you can run the application as a python module
 
 ```shell
-python3 -m hash_identifier
+python3 -m hashes
 ```
 
 > You can use the [`justfile`](https://github.com/casey/just) if you want to.
