@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-24 00:25+0300\n"
+"POT-Creation-Date: 2024-02-29 23:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:28
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:29
 msgid "Hashes"
 msgstr ""
 
 #: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:7
 msgid "Identify hashing algorithms"
 msgstr ""
 
@@ -32,10 +33,6 @@ msgstr ""
 
 #: data/io.github.zefr0x.hashes.desktop.in:13
 msgid "hash;hashcat;john;detect;identify"
-msgstr ""
-
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:7
-msgid "Identify hashing algorithm"
 msgstr ""
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:9
@@ -54,7 +51,7 @@ msgstr ""
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:13
 msgid ""
-"👵 Updated! - New hash algorithm database is used in the identification "
+"👵 Updated! - A new hash algorithm database is used in the identification "
 "process."
 msgstr ""
 
@@ -82,34 +79,34 @@ msgstr ""
 msgid "identify"
 msgstr ""
 
-#: hashes/ui/main_window.py:47
+#: hashes/ui/main_window.py:48
 msgid "Enter a hash text"
 msgstr ""
 
-#: hashes/ui/main_window.py:62
+#: hashes/ui/main_window.py:63
 msgid "Waiting for input…"
 msgstr ""
 
-#: hashes/ui/main_window.py:64
+#: hashes/ui/main_window.py:65
 msgid "Can't find an algorithm that matches your input!"
 msgstr ""
 
-#: hashes/ui/main_window.py:151
+#: hashes/ui/main_window.py:154
 msgid "<b>Extended!</b>"
 msgstr ""
 
-#: hashes/ui/main_window.py:162
+#: hashes/ui/main_window.py:165
 msgid "Hashcat"
 msgstr ""
 
-#: hashes/ui/main_window.py:176
+#: hashes/ui/main_window.py:179
 msgid "John"
 msgstr ""
 
-#: hashes/ui/main_window.py:204
+#: hashes/ui/main_window.py:208
 msgid "translator-credits"
 msgstr ""
 
-#: hashes/ui/main_window.py:213
+#: hashes/ui/main_window.py:217
 msgid "External Libraries"
 msgstr ""
