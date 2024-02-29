@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <filter id="a" height="100%" width="100%" x="0%" y="0%">
+        <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="b">
+        <g filter="url(#a)">
+            <rect fill-opacity="0.154" height="19.2" width="19.2" x="-1.6" y="-1.6"/>
+        </g>
+    </mask>
+    <clipPath id="c">
+        <rect height="152" width="192"/>
+    </clipPath>
+    <mask id="d">
+        <g filter="url(#a)">
+            <rect fill-opacity="0.154" height="19.2" width="19.2" x="-1.6" y="-1.6"/>
+        </g>
+    </mask>
+    <clipPath id="e">
+        <rect height="152" width="192"/>
+    </clipPath>
+    <path d="m 8 1 c -2.199219 0 -4 1.800781 -4 4 v 2 c -1.109375 0 -2 0.890625 -2 2 v 5 c 0 0.554688 0.445312 1 1 1 h 9.761719 l -2.273438 -2.273438 c -0.332031 0.171876 -0.707031 0.273438 -1.105469 0.273438 c -1.3125 0 -2.382812 -1.070312 -2.382812 -2.382812 c 0 -1.308594 1.070312 -2.378907 2.382812 -2.378907 c 1.308594 0 2.378907 1.070313 2.378907 2.378907 c 0 0.398437 -0.097657 0.777343 -0.273438 1.109374 l 2.492188 2.488282 c 0.011719 -0.070313 0.019531 -0.140625 0.019531 -0.214844 v -5 c 0 -1.109375 -0.890625 -2 -2 -2 v -2 c 0 -2.199219 -1.800781 -4 -4 -4 z m 0 2 c 1.125 0 2 0.875 2 2 v 2 h -4 v -2 c 0 -1.125 0.875 -2 2 -2 z m 1.382812 6.238281 c -0.769531 0 -1.382812 0.613281 -1.382812 1.378907 c 0 0.769531 0.613281 1.382812 1.382812 1.382812 c 0.765626 0 1.378907 -0.613281 1.378907 -1.382812 c 0 -0.765626 -0.613281 -1.378907 -1.378907 -1.378907 z m 0 0" fill="#241f31"/>
+    <g mask="url(#b)">
+        <g clip-path="url(#c)" transform="matrix(1 0 0 1 -168 -16)">
+            <path d="m 11.890594 268.550773 l 15.457032 -15.457032" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="1.63784" transform="matrix(-1 0 0 1 139.999969 -137.999991)"/>
+        </g>
+    </g>
+    <g mask="url(#d)">
+        <g clip-path="url(#e)" transform="matrix(1 0 0 1 -168 -16)">
+            <path d="m -618.960663 166.99266 l 16 -16" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="2" transform="matrix(-1 0 0 1 -489.960663 -35.99266)"/>
+        </g>
+    </g>
+</svg>

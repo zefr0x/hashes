@@ -32,6 +32,5 @@ gnome.post_install(
 
 # Other meson.build sub files
 subdir('data/')
-subdir('assets/')
 subdir('po/')
 subdir('hashes/')
