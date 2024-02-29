@@ -40,10 +40,9 @@
     <url type="vcs-browser">https://github.com/zefr0x/hashes</url>
     <url type="contribute">https://github.com/zefr0x/hashes/blob/main/CONTRIBUTING.md</url>
     <releases>
-        <!-- TODO: Create release. -->
-        <!-- <release version="1.0.0" date="2024-xx-xx" urgency="low"> -->
-        <!--     <url>https://github.com/zefr0x/hashes/blob/main/CHANGELOG.md#100</url> -->
-        <!-- </release> -->
+        <release version="1.0.0" date="2024-03-01" urgency="low">
+            <url>https://github.com/zefr0x/hashes/blob/main/CHANGELOG.md#100</url>
+        </release>
     </releases>
     <!-- TODO: Add Arabic screenshots when flathub supports it. -->
     <screenshots>
