@@ -69,6 +69,8 @@ class HashesMainWindow(Adw.ApplicationWindow):
         self._body_bin = Gtk.ScrolledWindow(hexpand=True, vexpand=True)
         main_content.append(self._body_bin)
 
+        self._body_bin.set_child(self._no_input_placeholder)
+
     def __build_header(self) -> Adw.HeaderBar:
         """Create the header bar for the application."""
         header = Adw.HeaderBar()
@@ -185,7 +187,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
         return Gtk.Frame(
             label_widget=Gtk.Label(
                 label=result["name"],
-                # TODO: Handle URLs the description.
+                # TODO: Handle URLs in the description.
                 tooltip_markup=result["description"],
                 css_classes=("title-3",),
             ),
