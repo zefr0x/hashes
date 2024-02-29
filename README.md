@@ -51,7 +51,8 @@ meson install -C builddir
 
 ## Screenshots
 
-TODO...
+![Screenshot Light Theme](https://github.com/zefr0x/hashes/assets/65136727/8c90e854-6ed1-4a35-aa56-b82739819ac3)
+![Screenshot Dark Theme](https://github.com/zefr0x/hashes/assets/65136727/84de462b-b875-4dd4-9703-8104130873a3)
 
 ## Acknowledgments
 
