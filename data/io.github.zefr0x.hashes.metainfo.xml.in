@@ -4,13 +4,13 @@
     <project_license>GPL-3.0-only</project_license>
     <id>io.github.zefr0x.hashes</id>
     <name>Hashes</name>
-    <summary>Identify hashing algorithm</summary>
+    <summary>Identify hashing algorithms</summary>
     <description>
         <p>This utility lets you conveniently find out what hashing algorithm has been used on a particular string.</p>
         <p>Features:</p>
         <ul>
             <li>📺 Popularity Ratings - Most popular hashes showed first.</li>
-            <li>👵 Updated! - New hash algorithm database is used in the identification process.</li>
+            <li>👵 Updated! - A new hash algorithm database is used in the identification process.</li>
         </ul>
     </description>
     <developer id="io.github.zefr0x">
@@ -29,11 +29,10 @@
         <keyword>detect</keyword>
         <keyword>identify</keyword>
     </keywords>
-    <!-- TODO: Add branding colors. -->
-    <!-- <branding> -->
-    <!--     <color type="primary" scheme_preference="light">#ffffff</color> -->
-    <!--     <color type="primary" scheme_preference="dark">#000000</color> -->
-    <!-- </branding> -->
+    <branding>
+        <color type="primary" scheme_preference="light">#f4eac8</color>
+        <color type="primary" scheme_preference="dark">#3d320f</color>
+    </branding>
     <url type="homepage">https://github.com/zefr0x/hashes</url>
     <url type="help">https://github.com/zefr0x/hashes</url>
     <url type="bugtracker">https://github.com/zefr0x/hashes/issues</url>
