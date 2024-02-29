@@ -1,5 +1,7 @@
 <div align = center>
 
+![Logo](data/icons/io.github.zefr0x.hashes.svg)
+
 <h1>Hashes</h1>
 
 Simple hash algorithm identification [Linux](https://en.wikipedia.org/wiki/Linux) [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface).
