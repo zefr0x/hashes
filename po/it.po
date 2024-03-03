@@ -55,7 +55,7 @@ msgid ""
 "👵 Updated! - A new hash algorithm database is used in the identification "
 "process."
 msgstr ""
-👵 Aggiornato! - Nell'identificazione viene utilizzato un nuovo database con algoritmo hash "
+"👵 Aggiornato! - Nell'identificazione viene utilizzato un nuovo database con algoritmo hash "
 "dei processi."
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:17
