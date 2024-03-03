@@ -23,7 +23,7 @@ A release is a [git tag](https://git-scm.com/docs/git-tag) in the `main` branch 
 
 ### Flatpak
 
-To be added...
+Hosted on Flathub [here](https://github.com/flathub/io.github.zefr0x.hashes).
 
 ## What should be packaged?
 

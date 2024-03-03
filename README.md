@@ -34,7 +34,9 @@ Simple hash algorithm identification [Linux](https://en.wikipedia.org/wiki/Linux
 
 ### Flathub <sup>`(recomended)`</sup>
 
-TODO...
+<a href='https://flathub.org/apps/io.github.zefr0x.hashes'>
+    <img width='240' alt='Download on Flathub' src='https://flathub.org/api/badge?locale=en'/>
+</a>
 
 ### Git
 
