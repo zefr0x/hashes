@@ -96,7 +96,7 @@ msgstr "Esperando por input…"
 
 #: hashes/ui/main_window.py:65
 msgid "Can't find an algorithm that matches your input!"
-msgstr "Não foi possível encontrar algorítimo que combine com seu input!"
+msgstr "Não foi possível encontrar um algorítimo que combine com seu input!"
 
 #: hashes/ui/main_window.py:154
 msgid "<b>Extended!</b>"
