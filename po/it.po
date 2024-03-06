@@ -108,7 +108,7 @@ msgstr ""
 
 #: hashes/ui/main_window.py:208
 msgid "translator-credits"
-msgstr "Albano Battistella albanobattistella@gmail.com"
+msgstr "Albano Battistella <albanobattistella@gmail.com>"
 
 #: hashes/ui/main_window.py:217
 msgid "External Libraries"
