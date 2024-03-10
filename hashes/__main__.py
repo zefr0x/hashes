@@ -1,5 +1,6 @@
 #!@PYTHON@
 """A launcher for the application."""
+
 import gettext
 import locale
 import sys

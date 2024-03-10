@@ -1,22 +1,28 @@
 """Main application window."""
+
 from gettext import gettext as _
 
 import gi
 from name_that_hash.runner import api_return_hashes_as_dict
 
+from hashes.__about__ import (
+    APP_ARTISTS_LIST,
+    APP_AUTHOR,
+    APP_DEVELOPERS_LIST,
+    APP_ID,
+    APP_VERSION,
+    BUG_REPORT_URL,
+    PROJECT_HOME_PAGE_URL,
+)
+
 from .utils import clipboard_clauser
-from hashes.__about__ import APP_ARTISTS_LIST
-from hashes.__about__ import APP_AUTHOR
-from hashes.__about__ import APP_DEVELOPERS_LIST
-from hashes.__about__ import APP_ID
-from hashes.__about__ import APP_VERSION
-from hashes.__about__ import BUG_REPORT_URL
-from hashes.__about__ import PROJECT_HOME_PAGE_URL
 
 gi.require_version("Adw", "1")
 gi.require_version("Gtk", "4.0")
-from gi.repository import Adw  # noqa: E402
-from gi.repository import Gtk  # noqa: E402
+from gi.repository import (  # noqa: E402
+    Adw,
+    Gtk,
+)
 
 
 class HashesMainWindow(Adw.ApplicationWindow):
@@ -194,7 +200,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
             child=result_flags_box,
         )
 
-    def __show_about_dialog(self, button: Gtk.Button) -> None:
+    def __show_about_dialog(self, _button: Gtk.Button) -> None:
         """Present the app's about dialog."""
         about_window = Adw.AboutWindow(
             application=self.get_application(),

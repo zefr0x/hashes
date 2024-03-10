@@ -1,16 +1,20 @@
 """Main file for the GUI."""
+
+import contextlib
 from typing import Sequence
 
 import gi
 
+from hashes.__about__ import APP_ID, APP_NAME
+
 from .main_window import HashesMainWindow
-from hashes.__about__ import APP_ID
-from hashes.__about__ import APP_NAME
 
 gi.require_version("Adw", "1")
-from gi.repository import Adw  # noqa: E402
-from gi.repository import GLib  # noqa: E402
-from gi.repository import Gio  # noqa: E402
+from gi.repository import (  # noqa: E402
+    Adw,
+    Gio,
+    GLib,
+)
 
 
 class Hashes(Adw.Application):
@@ -55,10 +59,8 @@ class Hashes(Adw.Application):
         self.window.present()
 
         # Pass CLI args to the main window
-        try:
-            self.window.identify_hash(self.argv["hash"])  # type: ignore
-        except (AttributeError, KeyError):
-            pass
+        with contextlib.suppress(AttributeError, KeyError):
+            self.window.identify_hash(self.argv["hash"])  # type: ignore[attr-defined]
 
 
 def main_ui(argv: Sequence[str]) -> int:
