@@ -53,10 +53,12 @@ meson install -C builddir
 
 ## Screenshots
 
-![Screenshot Light Theme](https://github.com/zefr0x/hashes/assets/65136727/f54f186b-4384-41dd-b4a5-205c198b43d4)
-![Screenshot Dark Theme](https://github.com/zefr0x/hashes/assets/65136727/3ee65148-b8a0-4f39-8023-06a005c07034)
-![Screenshot Small Light Theme](https://github.com/zefr0x/hashes/assets/65136727/1506f222-cafa-4d9e-91d8-c72ea536f541)
-![Screenshot Small Dark Theme](https://github.com/zefr0x/hashes/assets/65136727/deec13ca-9246-4b99-8762-1c93a532a979)
+<div style="display: flex;">
+    <img src="https://github.com/zefr0x/hashes/assets/65136727/f54f186b-4384-41dd-b4a5-205c198b43d4" alt="Screenshot Light Theme">
+    <img src="https://github.com/zefr0x/hashes/assets/65136727/3ee65148-b8a0-4f39-8023-06a005c07034" alt="Screenshot Dark Theme">
+    <img src="https://github.com/zefr0x/hashes/assets/65136727/1506f222-cafa-4d9e-91d8-c72ea536f541" alt="Screenshot Small Light Theme" height="600">
+    <img src="https://github.com/zefr0x/hashes/assets/65136727/deec13ca-9246-4b99-8762-1c93a532a979" alt="Screenshot Small Dark Theme" height="600">
+</div>
 
 ## Acknowledgments
 
