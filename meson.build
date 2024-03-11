@@ -1,13 +1,13 @@
 project(
   'hashes',
-  version : '1.0.0',
+  version : '1.0.1',
   license : 'GPL3',
   default_options : ['warning_level=2'],
 )
 
 APP_ID = 'io.github.zefr0x.hashes'
 APP_BIN = 'hashes'
-APP_VERSION = '1.0.0'
+APP_VERSION = '1.0.1'
 
 # Get options
 prefix = get_option('prefix')
