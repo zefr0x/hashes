@@ -35,7 +35,7 @@ msgstr "हैश पहचानकर्ता"
 
 #: data/io.github.zefr0x.hashes.desktop.in:13
 msgid "hash;hashcat;john;detect;identify"
-msgstr "hash;hashcat;john;detect;identify;हैश;हैशकैट;जॉन;पता लगाएं;पहचाने;"
+msgstr "हैश;हैशकैट;जॉन;पता लगाएं;पहचाने;"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:9
 msgid ""
