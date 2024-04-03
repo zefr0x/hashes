@@ -110,7 +110,7 @@ msgstr "जॉन"
 
 #: hashes/ui/main_window.py:208
 msgid "translator-credits"
-msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024"
+msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
 #: hashes/ui/main_window.py:217
 msgid "External Libraries"
