@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-29 23:09+0300\n"
-"PO-Revision-Date: 2024-04-20 08:39+0200\n"
+"PO-Revision-Date: 2024-04-20 08:58+0200\n"
 "Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
 "Language: bg\n"
@@ -31,11 +31,11 @@ msgstr "Идентифицирайте алгоритми за хеширане"
 
 #: data/io.github.zefr0x.hashes.desktop.in:7
 msgid "Hash Identifier"
-msgstr "Идентификатор на хеша"
+msgstr "Хеш Идентификатор"
 
 #: data/io.github.zefr0x.hashes.desktop.in:13
 msgid "hash;hashcat;john;detect;identify"
-msgstr "hash;hashcat;john;detect;identify;хеш;засичане;"
+msgstr "hash;hashcat;john;detect;identify;хеш;засичане;идентифициране;"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:9
 msgid ""
