@@ -19,16 +19,6 @@
     <launchable type="desktop-id">io.github.zefr0x.hashes.desktop</launchable>
     <content_rating type="oars-1.0"></content_rating>
     <translation type="gettext" source_locale="en_GB">io.github.zefr0x.hashes</translation>
-    <categories>
-        <category>Development</category>
-    </categories>
-    <keywords>
-        <keyword>hash</keyword>
-        <keyword>hashcat</keyword>
-        <keyword>john</keyword>
-        <keyword>detect</keyword>
-        <keyword>identify</keyword>
-    </keywords>
     <branding>
         <color type="primary" scheme_preference="light">#f4eac8</color>
         <color type="primary" scheme_preference="dark">#3d320f</color>
