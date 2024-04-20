@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-29 23:09+0300\n"
-"PO-Revision-Date: 2024-04-20 08:58+0200\n"
+"PO-Revision-Date: 2024-04-20 12:05+0200\n"
 "Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
 "Language: bg\n"
@@ -35,7 +35,7 @@ msgstr "Хеш Идентификатор"
 
 #: data/io.github.zefr0x.hashes.desktop.in:13
 msgid "hash;hashcat;john;detect;identify"
-msgstr "hash;hashcat;john;detect;identify;хеш;засичане;идентифициране;"
+msgstr "хеш;засичане;идентифициране;"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:9
 msgid ""
@@ -52,14 +52,14 @@ msgstr "Функции:"
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:12
 msgid "📺 Popularity Ratings - Most popular hashes showed first."
 msgstr ""
-"Класификация на популярността - Най-популярните хешове се показват първи."
+"📺 Класификация на популярността — Най-популярните хешове се показват първи."
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:13
 msgid ""
 "👵 Updated! - A new hash algorithm database is used in the identification "
 "process."
 msgstr ""
-"👵 Обновено! -В процеса на идентификация се използва нова база данни с хеш "
+"👵 Обновено! — В процеса на идентификация се използва нова база данни с хеш "
 "алгоритми."
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:17
