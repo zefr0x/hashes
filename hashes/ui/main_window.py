@@ -202,9 +202,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
 
     def __show_about_dialog(self, _button: Gtk.Button) -> None:
         """Present the app's about dialog."""
-        about_window = Adw.AboutWindow(
-            application=self.get_application(),
-            transient_for=self,
+        about_window = Adw.AboutDialog(
             application_icon=APP_ID,
             application_name=self.get_title() or "",
             developer_name=APP_AUTHOR,
@@ -227,4 +225,4 @@ class HashesMainWindow(Adw.ApplicationWindow):
             ],
         )
 
-        about_window.show()
+        about_window.present(self)
