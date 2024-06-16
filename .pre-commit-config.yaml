@@ -40,20 +40,22 @@ repos:
     hooks:
       - id: pretty-format-ini
   # PIP requirements
-  - repo: https://github.com/jazzband/pip-tools
-    rev: 7.4.1
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 0.2.11
     hooks:
       - id: pip-compile
         name: pip-compile requirements.in
         args:
-          - --resolver=backtracking
           - --generate-hashes
           - requirements/requirements.in
+          - -o
+          - requirements/requirements.txt
         files: ^requirements/requirements.in$
       - id: pip-compile
         name: pip-compile requirements-dev.in
         args:
-          - --resolver=backtracking
           - --generate-hashes
           - requirements/requirements-dev.in
+          - -o
+          - requirements/requirements-dev.txt
         files: ^requirements/requirements-dev.in$
