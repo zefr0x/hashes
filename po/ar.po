@@ -8,20 +8,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 23:09+0300\n"
-"PO-Revision-Date: 2024-02-29 23:35+0300\n"
+"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"PO-Revision-Date: 2024-09-24 22:44+0300\n"
 "Last-Translator: zefr0x <zer0-x.7ty50@aleeas.com>\n"
-"Language-Team: Arabic <>\n"
+"Language-Team: Arabic\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural= n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Gtranslator 45.3\n"
+"X-Generator: Gtranslator 46.1\n"
 
 #: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
 msgid "Hashes"
 msgstr "تجزئات"
 
@@ -85,34 +85,54 @@ msgstr "كشف"
 msgid "identify"
 msgstr "تعرف"
 
-#: hashes/ui/main_window.py:48
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+msgid "Main window with a valid hash string (Light Theme)"
+msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (الوضع المضيء)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+msgid "Main window with a valid hash string (Dark Theme)"
+msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (الوضع المظلم)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+msgid "Main window with a valid hash string (Small, Light Theme)"
+msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (مُصَغَّرَة، الوضع المضيء)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+msgid "Main window with a valid hash string (Small, Dark Theme)"
+msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (مُصَغَّرَة، الوضع المظلم)"
+
+#: hashes/ui/main_window.py:54
 msgid "Enter a hash text"
 msgstr "أدخِل نَصْ تجزِئة"
 
-#: hashes/ui/main_window.py:63
+#: hashes/ui/main_window.py:69
 msgid "Waiting for input…"
 msgstr "فِي اِنتظار الإدخال…"
 
-#: hashes/ui/main_window.py:65
+#: hashes/ui/main_window.py:71
 msgid "Can't find an algorithm that matches your input!"
 msgstr "تعذَّر العثور على خوارزمية تُطابق مدخلاتك!"
 
-#: hashes/ui/main_window.py:154
+#: hashes/ui/main_window.py:85
+msgid "Copied"
+msgstr "نُسِخ"
+
+#: hashes/ui/main_window.py:166
 msgid "<b>Extended!</b>"
 msgstr "<b>مُطوَّلة!</b>"
 
-#: hashes/ui/main_window.py:165
+#: hashes/ui/main_window.py:177
 msgid "Hashcat"
 msgstr "هاش كات"
 
-#: hashes/ui/main_window.py:179
+#: hashes/ui/main_window.py:191
 msgid "John"
 msgstr "جون"
 
-#: hashes/ui/main_window.py:208
+#: hashes/ui/main_window.py:233
 msgid "translator-credits"
 msgstr "zefr0x https://github.com/zefr0x"
 
-#: hashes/ui/main_window.py:217
+#: hashes/ui/main_window.py:242
 msgid "External Libraries"
 msgstr "مكتباتٌ برمجيةٌ خارجية"

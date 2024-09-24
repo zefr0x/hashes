@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 23:09+0300\n"
+"POT-Creation-Date: 2024-09-25 02:46+0300\n"
 "PO-Revision-Date: 2024-03-03 08:21+0100\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
 msgid "Hashes"
 msgstr ""
 
@@ -39,8 +39,8 @@ msgid ""
 "This utility lets you conveniently find out what hashing algorithm has been "
 "used on a particular string."
 msgstr ""
-"Questa utility ti consente di scoprire comodamente quale è stato l'algoritmo di hashing "
-"usato su una particolare stringa."
+"Questa utility ti consente di scoprire comodamente quale è stato l'algoritmo "
+"di hashing usato su una particolare stringa."
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:10
 msgid "Features:"
@@ -48,15 +48,17 @@ msgstr "Caratteristiche:"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:12
 msgid "📺 Popularity Ratings - Most popular hashes showed first."
-msgstr "📺 Valutazioni di popolarità: gli hash più popolari vengono mostrati per primi."
+msgstr ""
+"📺 Valutazioni di popolarità: gli hash più popolari vengono mostrati per "
+"primi."
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:13
 msgid ""
 "👵 Updated! - A new hash algorithm database is used in the identification "
 "process."
 msgstr ""
-"👵 Aggiornato! - Nell'identificazione viene utilizzato un nuovo database con algoritmo hash "
-"dei processi."
+"👵 Aggiornato! - Nell'identificazione viene utilizzato un nuovo database con "
+"algoritmo hash dei processi."
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:17
 msgid "zefr0x"
@@ -82,34 +84,54 @@ msgstr "rivela"
 msgid "identify"
 msgstr "identifica"
 
-#: hashes/ui/main_window.py:48
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+msgid "Main window with a valid hash string (Light Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+msgid "Main window with a valid hash string (Dark Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+msgid "Main window with a valid hash string (Small, Light Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+msgid "Main window with a valid hash string (Small, Dark Theme)"
+msgstr ""
+
+#: hashes/ui/main_window.py:54
 msgid "Enter a hash text"
 msgstr "Inserisci un testo hash"
 
-#: hashes/ui/main_window.py:63
+#: hashes/ui/main_window.py:69
 msgid "Waiting for input…"
 msgstr "In attesa di input…"
 
-#: hashes/ui/main_window.py:65
+#: hashes/ui/main_window.py:71
 msgid "Can't find an algorithm that matches your input!"
 msgstr "Impossibile trovare un algoritmo che corrisponda al tuo input!"
 
-#: hashes/ui/main_window.py:154
+#: hashes/ui/main_window.py:85
+msgid "Copied"
+msgstr "Copiato"
+
+#: hashes/ui/main_window.py:166
 msgid "<b>Extended!</b>"
 msgstr "<b>Esteso!</b>"
 
-#: hashes/ui/main_window.py:165
+#: hashes/ui/main_window.py:177
 msgid "Hashcat"
 msgstr ""
 
-#: hashes/ui/main_window.py:179
+#: hashes/ui/main_window.py:191
 msgid "John"
 msgstr ""
 
-#: hashes/ui/main_window.py:208
+#: hashes/ui/main_window.py:233
 msgid "translator-credits"
 msgstr "Albano Battistella <albanobattistella@gmail.com>"
 
-#: hashes/ui/main_window.py:217
+#: hashes/ui/main_window.py:242
 msgid "External Libraries"
 msgstr "Librerie Esterne"
