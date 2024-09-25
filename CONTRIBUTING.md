@@ -46,7 +46,7 @@ uv pip sync requirements/{requirements,requirements-dev}.txt
 python3 -m hashes
 ```
 
-> You can use the [`justfile`](https://github.com/casey/just) if you want to.
+> You can use the [`justfile`](https://github.com/casey/just) for the last two steps if you want to.
 
 ### Style
 
