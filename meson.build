@@ -7,7 +7,6 @@ project(
 
 APP_ID = 'io.github.zefr0x.hashes'
 APP_BIN = 'hashes'
-APP_VERSION = '1.0.1'
 
 # Get options
 prefix = get_option('prefix')
