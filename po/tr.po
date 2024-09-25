@@ -1,0 +1,137 @@
+# Turkish translation for io.github.zefr0x.hashes.
+# Copyright (C) 2024 io.github.zefr0x.hashes's COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.github.zefr0x.hashes package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2022-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.github.zefr0x.hashes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 03:27+0300\n"
+"PO-Revision-Date: 2024-04-21 01:43+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: data/io.github.zefr0x.hashes.desktop.in:5
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
+msgid "Hashes"
+msgstr "Özetler"
+
+#: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:7
+msgid "Identify hashing algorithms"
+msgstr "Özet algoritmalarını tanıla"
+
+#: data/io.github.zefr0x.hashes.desktop.in:7
+msgid "Hash Identifier"
+msgstr "Özet Tanılayıcı"
+
+#: data/io.github.zefr0x.hashes.desktop.in:13
+msgid "hash;hashcat;john;detect;identify"
+msgstr "hash;hashcat;john;algıla;tanıla;"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:9
+msgid ""
+"This utility lets you conveniently find out what hashing algorithm has been "
+"used on a particular string."
+msgstr ""
+"Bu araç, belirli bir dize üzerinde hangi özet algoritmasının kullanıldığını "
+"kolayca bulmanızı sağlar."
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:10
+msgid "Features:"
+msgstr "Özellikler:"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:12
+msgid "📺 Popularity Ratings - Most popular hashes showed first."
+msgstr "📺 Popülerlik Derecelendirmeleri - En gözde özetler önce gösterilir."
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:13
+msgid ""
+"👵 Updated! - A new hash algorithm database is used in the identification "
+"process."
+msgstr ""
+"👵 Güncellendi! - Tanımlama sürecinde yeni özet algoritması veritabanı "
+"kullanılmaktadır."
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:17
+msgid "zefr0x"
+msgstr "zefr0x"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:26
+msgid "hash"
+msgstr "hash"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:27
+msgid "hashcat"
+msgstr "hashcat"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:28
+msgid "john"
+msgstr "john"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:29
+msgid "detect"
+msgstr "algıla"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:30
+msgid "identify"
+msgstr "tanıla"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+msgid "Main window with a valid hash string (Light Theme)"
+msgstr "Geçerli özet dizgeye sahip ana pencere (Açık Tema)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+msgid "Main window with a valid hash string (Dark Theme)"
+msgstr "Geçerli özet dizgeye sahip ana pencere (Koyu Tema)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+msgid "Main window with a valid hash string (Small, Light Theme)"
+msgstr "Geçerli özet dizgeye sahip ana pencere (Küçük, Açık Tema)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+msgid "Main window with a valid hash string (Small, Dark Theme)"
+msgstr "Geçerli özet dizgeye sahip ana pencere (Küçük, Koyu Tema)"
+
+#: hashes/ui/main_window.py:54
+msgid "Enter a hash text"
+msgstr "Özet metnini girin"
+
+#: hashes/ui/main_window.py:69
+msgid "Waiting for input…"
+msgstr "Girdi bekleniyor…"
+
+#: hashes/ui/main_window.py:71
+msgid "Can't find an algorithm that matches your input!"
+msgstr "Girdinize uyuşan algoritma bulunamadı."
+
+#: hashes/ui/main_window.py:85
+msgid "Copied"
+msgstr "Kopyalandı"
+
+#: hashes/ui/main_window.py:166
+msgid "<b>Extended!</b>"
+msgstr "<b>Uzatıldı!</b>"
+
+#: hashes/ui/main_window.py:177
+msgid "Hashcat"
+msgstr "Hashcat"
+
+#: hashes/ui/main_window.py:191
+msgid "John"
+msgstr "John"
+
+#: hashes/ui/main_window.py:233
+msgid "translator-credits"
+msgstr "Sabri Ünal <yakushabb@gmail.com>"
+
+#: hashes/ui/main_window.py:242
+msgid "External Libraries"
+msgstr "Harici Kütüphaneler"
