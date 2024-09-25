@@ -2,7 +2,7 @@ You can use [Gtranslator](https://flathub.org/apps/org.gnome.Gtranslator) or [Lo
 
 ## Adding New Language
 
-1. Find you language's locale code.
+1. Find your language's locale code.
 
 > Locale codes are typically of the form language[_territory], where language is an [ISO 639 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), territory is an [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes).
 >
@@ -15,8 +15,16 @@ You can use [Gtranslator](https://flathub.org/apps/org.gnome.Gtranslator) or [Lo
 
 ### Generate the `.pot` file
 
-Run the `io.github.zefr0x.hashes-pot` compile target.
+Run the `io.github.zefr0x.hashes-pot` compile target:
+
+```shell
+meson compile -C builddir io.github.zefr0x.hashes-pot
+```
 
 ### Update `.po` files from current `.pot` file
 
-Run the `io.github.zefr0x.hashes-update-po` compile target.
+Run the `io.github.zefr0x.hashes-update-po` compile target:
+
+```shell
+meson compile -C builddir io.github.zefr0x.hashes-update-po
+```

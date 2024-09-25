@@ -9,12 +9,12 @@ We aim to be user friendly, so if you have any issue or suggestion for the [UI](
 ## Development
 
 - The 3rd version of the [Python](<https://en.wikipedia.org/wiki/Python_(programming_language)>) programming language is used mainly in this project.
-- Dependencies managment is handled using [requirements files](requirements) with [pip-tools](https://pip-tools.rtfd.io/).
+- Dependencies managment is handled using [requirements files](requirements) with [uv](https://github.com/astral-sh/uv).
   - `requirements.in` contain requirements for running the application and `requirements-dev.in` contain requirements for development.
-  - `.txt` files are locked requirements with hashes generated using `pip-tools` to provide a reproducible environment.
+  - `.txt` files are locked requirements with hashes generated using `uv` to provide a reproducible environment.
   - For development you will need to use both files, while users just need to use the `requirements.txt` file.
 
-> `pre-commit` will take care about generating `.txt` files. You should just edit `.in` files or use `pip-tools` to upgrade locked requirements.
+> `pre-commit` will take care about generating `.txt` files. You should just edit `.in` files or use `uv` to upgrade locked requirements.
 
 ### Create a virtual environment and install dependencies
 
@@ -24,35 +24,29 @@ First clone the git repository:
 git clone https://github.com/zefr0x/hashes.git
 ```
 
-For development you are recomended to use [pip-tools](https://pip-tools.rtfd.io/) for reproducing the same environment.
+For development you are recomended to use [uv](https://github.com/astral-sh/uv) for reproducing the same environment.
 
 1. Create a virtual environment and activate it
 
 ```shell
-virtualenv .env
+uv venv
 
-source .env/bin/activate
+source .venv/bin/activate
 ```
 
-2. Install `pip-tools` in the virtualenv
+2. Run the folowing command in the project's root directory to install all the dependencies for development
 
 ```shell
-pip install pip-tools
+uv pip sync requirements/{requirements,requirements-dev}.txt
 ```
 
-3. Run the folowing command in the project's root directory to install all the dependencies for development
-
-```shell
-pip-sync requirements/{requirements,requirements-dev}.txt
-```
-
-4. Then you can run the application as a python module
+3. Then you can run the application as a python module
 
 ```shell
 python3 -m hashes
 ```
 
-> You can use the [`justfile`](https://github.com/casey/just) if you want to.
+> You can use the [`justfile`](https://github.com/casey/just) for the last two steps if you want to.
 
 ### Style
 
@@ -62,9 +56,7 @@ python3 -m hashes
 You should use:
 
 - [mypy](http://www.mypy-lang.org/) `(Static Type Checker)`
-- [flake8](https://flake8.pycqa.org/) `(Style Enforcer)`
-- [pydocstyle](https://www.pydocstyle.org/) `(Checking compliance with Python docstring conventions)`
-- [black](https://black.readthedocs.io/) `(Code Formatter)`
+- [ruff](https://astral.sh/ruff) `(Style Enforcer & Code Formatter)`
 
 You can also use any tool that you want as long as it's compatable with the required style.
 

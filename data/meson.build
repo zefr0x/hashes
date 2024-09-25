@@ -26,9 +26,9 @@ appstream_file = i18n.merge_file(
   install_dir: datadir / 'metainfo'
 )
 
-appstream_util = find_program(['appstreamcli', 'appstreamcli'], required: false)
-if appstream_util.found()
-  test('Validate appstream file', appstream_util,
+appstreamcli = find_program('appstreamcli', required: false)
+if appstreamcli.found()
+  test('Validate appstream file', appstreamcli,
     args: ['validate', '--no-net', '--explain', appstream_file]
   )
 endif

@@ -8,19 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 23:09+0300\n"
-"PO-Revision-Date: 2024-04-01 18:42+0530\n"
+"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"PO-Revision-Date: 2024-05-11 14:57+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
-"Language-Team: Hindi\n"
+"Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 46.0\n"
+"X-Generator: Gtranslator 46.1\n"
 
 #: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
 msgid "Hashes"
 msgstr "Hashes"
 
@@ -47,7 +47,7 @@ msgstr ""
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:10
 msgid "Features:"
-msgstr "विशेषताएँ:"
+msgstr "विशेषताएं:"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:12
 msgid "📺 Popularity Ratings - Most popular hashes showed first."
@@ -84,34 +84,54 @@ msgstr "पता लगाएं"
 msgid "identify"
 msgstr "पहचाने"
 
-#: hashes/ui/main_window.py:48
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+msgid "Main window with a valid hash string (Light Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+msgid "Main window with a valid hash string (Dark Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+msgid "Main window with a valid hash string (Small, Light Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+msgid "Main window with a valid hash string (Small, Dark Theme)"
+msgstr ""
+
+#: hashes/ui/main_window.py:54
 msgid "Enter a hash text"
-msgstr "एक हैश पाठ दर्ज करें"
+msgstr "हैश पाठ दर्ज करें"
 
-#: hashes/ui/main_window.py:63
+#: hashes/ui/main_window.py:69
 msgid "Waiting for input…"
-msgstr "इनपुट की प्रतीक्षा में…"
+msgstr "आगत की प्रतीक्षा में…"
 
-#: hashes/ui/main_window.py:65
+#: hashes/ui/main_window.py:71
 msgid "Can't find an algorithm that matches your input!"
-msgstr "आपके इनपुट से मेल खाने वाला कलन विधि नहीं मिल सकी!"
+msgstr "आपके आगत से मेल खाने वाला कलन विधि नहीं मिल सकी!"
 
-#: hashes/ui/main_window.py:154
+#: hashes/ui/main_window.py:85
+msgid "Copied"
+msgstr "कॉपी किया गया"
+
+#: hashes/ui/main_window.py:166
 msgid "<b>Extended!</b>"
 msgstr "<b>विस्तारित!</b>"
 
-#: hashes/ui/main_window.py:165
+#: hashes/ui/main_window.py:177
 msgid "Hashcat"
 msgstr "हैशकैट"
 
-#: hashes/ui/main_window.py:179
+#: hashes/ui/main_window.py:191
 msgid "John"
 msgstr "जॉन"
 
-#: hashes/ui/main_window.py:208
+#: hashes/ui/main_window.py:233
 msgid "translator-credits"
 msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
-#: hashes/ui/main_window.py:217
+#: hashes/ui/main_window.py:242
 msgid "External Libraries"
 msgstr "बाहरी लाइब्रेरी"

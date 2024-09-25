@@ -1,6 +1,8 @@
 """Main application window."""
 
+import logging
 from gettext import gettext as _
+from typing import Callable
 
 import gi
 from name_that_hash.runner import api_return_hashes_as_dict
@@ -15,12 +17,11 @@ from hashes.__about__ import (
     PROJECT_HOME_PAGE_URL,
 )
 
-from .utils import clipboard_clauser
-
 gi.require_version("Adw", "1")
 gi.require_version("Gtk", "4.0")
 from gi.repository import (  # noqa: E402
     Adw,
+    Gdk,
     Gtk,
 )
 
@@ -46,7 +47,6 @@ class HashesMainWindow(Adw.ApplicationWindow):
 
         # Content layout
         main_content = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
-        main_layout.set_content(main_content)
 
         # Hash input filed
         self._hash_input_field = Gtk.Entry(
@@ -76,6 +76,13 @@ class HashesMainWindow(Adw.ApplicationWindow):
         main_content.append(self._body_bin)
 
         self._body_bin.set_child(self._no_input_placeholder)
+
+        # Main Overlay
+        self._overlay = Adw.ToastOverlay(child=main_content)
+        main_layout.set_content(self._overlay)
+
+        # Main Overlay's Toasts
+        self._toast_copied = Adw.Toast(title=_("Copied"), timeout=2)
 
     def __build_header(self) -> Adw.HeaderBar:
         """Create the header bar for the application."""
@@ -140,8 +147,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
 
             self._body_bin.set_child(self._no_input_placeholder)
 
-    @staticmethod
-    def __build_result_box(result: dict) -> Gtk.Frame:
+    def __build_result_box(self, result: dict) -> Gtk.Frame:
         """Create a frame for a result."""
         # TODO: Color results based on popularity?
         result_flags_box = Gtk.Box(
@@ -174,7 +180,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
                 css_classes=("flat",),
             )
             result_flags_box.append(button)
-            button.connect("clicked", clipboard_clauser(hashcat_id))
+            button.connect("clicked", self.__clipboard_clauser(hashcat_id))
 
         if result["john"]:
             john_id = str(result["john"])
@@ -188,7 +194,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
                 css_classes=("flat",),
             )
             result_flags_box.append(button)
-            button.connect("clicked", clipboard_clauser(john_id))
+            button.connect("clicked", self.__clipboard_clauser(john_id))
 
         return Gtk.Frame(
             label_widget=Gtk.Label(
@@ -200,11 +206,24 @@ class HashesMainWindow(Adw.ApplicationWindow):
             child=result_flags_box,
         )
 
+    def __clipboard_clauser(self, text: str) -> Callable:
+        """Save a text to be used in a clipboard setter as handler funtion."""
+
+        def handler(*_args: list, **_kargs: dict) -> None:
+            """Clipboard setter."""
+            try:
+                Gdk.Display.get_default().get_clipboard().set(text)  # type: ignore[union-attr]
+
+                self._toast_copied.dismiss()
+                self._overlay.add_toast(self._toast_copied)
+            except AttributeError:
+                logging.exception("Error: Can't find GDK display to access clipboard.")
+
+        return handler
+
     def __show_about_dialog(self, _button: Gtk.Button) -> None:
         """Present the app's about dialog."""
-        about_window = Adw.AboutWindow(
-            application=self.get_application(),
-            transient_for=self,
+        about_window = Adw.AboutDialog(
             application_icon=APP_ID,
             application_name=self.get_title() or "",
             developer_name=APP_AUTHOR,
@@ -227,4 +246,4 @@ class HashesMainWindow(Adw.ApplicationWindow):
             ],
         )
 
-        about_window.show()
+        about_window.present(self)

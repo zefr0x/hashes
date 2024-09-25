@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 23:09+0300\n"
+"POT-Creation-Date: 2024-09-25 02:46+0300\n"
 "PO-Revision-Date: 2024-03-05 20:03-0300\n"
 "Last-Translator: Luiz Lima <>\n"
 "Language-Team: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 
 #: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
 msgid "Hashes"
 msgstr "Hashes"
 
@@ -41,8 +41,8 @@ msgid ""
 "This utility lets you conveniently find out what hashing algorithm has been "
 "used on a particular string."
 msgstr ""
-"Essa ferramenta permite que você descubra convenientemente qual algoritmo "
-"de hash foi usado em uma string específica."
+"Essa ferramenta permite que você descubra convenientemente qual algoritmo de "
+"hash foi usado em uma string específica."
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:10
 msgid "Features:"
@@ -86,34 +86,54 @@ msgstr "detectar"
 msgid "identify"
 msgstr "identificar"
 
-#: hashes/ui/main_window.py:48
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+msgid "Main window with a valid hash string (Light Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+msgid "Main window with a valid hash string (Dark Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+msgid "Main window with a valid hash string (Small, Light Theme)"
+msgstr ""
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+msgid "Main window with a valid hash string (Small, Dark Theme)"
+msgstr ""
+
+#: hashes/ui/main_window.py:54
 msgid "Enter a hash text"
 msgstr "Entre um texto de hash"
 
-#: hashes/ui/main_window.py:63
+#: hashes/ui/main_window.py:69
 msgid "Waiting for input…"
 msgstr "Esperando por input…"
 
-#: hashes/ui/main_window.py:65
+#: hashes/ui/main_window.py:71
 msgid "Can't find an algorithm that matches your input!"
 msgstr "Não foi possível encontrar um algorítimo que combine com seu input!"
 
-#: hashes/ui/main_window.py:154
+#: hashes/ui/main_window.py:85
+msgid "Copied"
+msgstr "Copiado"
+
+#: hashes/ui/main_window.py:166
 msgid "<b>Extended!</b>"
 msgstr "<b>Extendido!</b>"
 
-#: hashes/ui/main_window.py:165
+#: hashes/ui/main_window.py:177
 msgid "Hashcat"
 msgstr "Hashcat"
 
-#: hashes/ui/main_window.py:179
+#: hashes/ui/main_window.py:191
 msgid "John"
 msgstr "John"
 
-#: hashes/ui/main_window.py:208
+#: hashes/ui/main_window.py:233
 msgid "translator-credits"
 msgstr "Luiz Lima"
 
-#: hashes/ui/main_window.py:217
+#: hashes/ui/main_window.py:242
 msgid "External Libraries"
 msgstr "Bibliotecas Externas"
