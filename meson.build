@@ -21,7 +21,7 @@ gnome = import('gnome')
 
 # Check for deps
 gtk4 = dependency('gtk4', version: '>= 4.0')
-libadwaita = dependency('libadwaita-1', version: '>= 1.4')
+libadwaita = dependency('libadwaita-1', version: '>= 1.5')
 
 # Post install
 gnome.post_install(
