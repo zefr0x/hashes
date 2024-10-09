@@ -1,0 +1,136 @@
+# Russian translations for Hashes package.
+# Copyright (C) 2024 zefr0x
+# This file is distributed under the same license as the Hashes package.
+# Vladimir Kosolapov, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.github.zefr0x.hashes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"PO-Revision-Date: 2024-10-09 12:00+0000\n"
+"Last-Translator: Vladimir Kosolapov\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: data/io.github.zefr0x.hashes.desktop.in:5
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
+msgid "Hashes"
+msgstr "Хэши"
+
+#: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:7
+msgid "Identify hashing algorithms"
+msgstr "Идентифицируйте алгоритмы хэширования"
+
+#: data/io.github.zefr0x.hashes.desktop.in:7
+msgid "Hash Identifier"
+msgstr "Идентификатор хэшей"
+
+#: data/io.github.zefr0x.hashes.desktop.in:13
+msgid "hash;hashcat;john;detect;identify"
+msgstr "хэш;распознавание;идентификация"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:9
+msgid ""
+"This utility lets you conveniently find out what hashing algorithm has been "
+"used on a particular string."
+msgstr ""
+"Этот инструмент позволяет вам удобно узнать, какой алгоритм хэширования "
+"был использован для определённой строки."
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:10
+msgid "Features:"
+msgstr "Особенности:"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:12
+msgid "📺 Popularity Ratings - Most popular hashes showed first."
+msgstr "📺 Рейтинги популярности - Сначала отображаются самые популярные хэши."
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:13
+msgid ""
+"👵 Updated! - A new hash algorithm database is used in the identification "
+"process."
+msgstr "👵 Обновлено! - В процессе идентификации используется новая база "
+"алгоритмов хэширования."
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:17
+msgid "zefr0x"
+msgstr "zefr0x"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:26
+msgid "hash"
+msgstr "хэш"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:27
+msgid "hashcat"
+msgstr "hashcat"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:28
+msgid "john"
+msgstr "john"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:29
+msgid "detect"
+msgstr "распознавание"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:30
+msgid "identify"
+msgstr "идентификация"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+msgid "Main window with a valid hash string (Light Theme)"
+msgstr "Главное окно с подходящим хэшем (светлая тема)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+msgid "Main window with a valid hash string (Dark Theme)"
+msgstr "Главное окно с подходящим хэшем (тёмная тема)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+msgid "Main window with a valid hash string (Small, Light Theme)"
+msgstr "Главное окно с подходящим хэшем (маленькое, cветлая тема)"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+msgid "Main window with a valid hash string (Small, Dark Theme)"
+msgstr "Главное окно с подходящим хэшем (маленькое, тёмная тема)"
+
+#: hashes/ui/main_window.py:54
+msgid "Enter a hash text"
+msgstr "Введите текст хэша"
+
+#: hashes/ui/main_window.py:69
+msgid "Waiting for input…"
+msgstr "Ожидание ввода…"
+
+#: hashes/ui/main_window.py:71
+msgid "Can't find an algorithm that matches your input!"
+msgstr "Не удаётся найти алгоритм, соответствующий вашему вводу!"
+
+#: hashes/ui/main_window.py:85
+msgid "Copied"
+msgstr "Скопировано"
+
+#: hashes/ui/main_window.py:166
+msgid "<b>Extended!</b>"
+msgstr "<b>Расширенный!</b>"
+
+#: hashes/ui/main_window.py:177
+msgid "Hashcat"
+msgstr "Hashcat"
+
+#: hashes/ui/main_window.py:191
+msgid "John"
+msgstr "John"
+
+#: hashes/ui/main_window.py:233
+msgid "translator-credits"
+msgstr "Vladimir Kosolapov https://github.com/vmkspv"
+
+#: hashes/ui/main_window.py:242
+msgid "External Libraries"
+msgstr "Сторонние библиотеки"
