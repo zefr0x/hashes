@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 02:46+0300\n"
-"PO-Revision-Date: 2024-07-12 13:44-0400\n"
+"PO-Revision-Date: 2025-01-03 13:00-0300\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -87,19 +87,19 @@ msgstr "identificar"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:53
 msgid "Main window with a valid hash string (Light Theme)"
-msgstr ""
+msgstr "Ventana principal con una cadena hash válida (Tema Claro)"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:57
 msgid "Main window with a valid hash string (Dark Theme)"
-msgstr ""
+msgstr "Ventana principal con una cadena hash válida (Tema oscuro)"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:61
 msgid "Main window with a valid hash string (Small, Light Theme)"
-msgstr ""
+msgstr "Ventana principal con una cadena hash válida (Tema pequeño y claro)"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:65
 msgid "Main window with a valid hash string (Small, Dark Theme)"
-msgstr ""
+msgstr "Ventana principal con una cadena hash válida (Pequeño, Tema oscuro)"
 
 #: hashes/ui/main_window.py:54
 msgid "Enter a hash text"
