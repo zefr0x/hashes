@@ -1,5 +1,12 @@
 # Unreleased
 
+# 1.1.1
+
+## i18n
+
+- Add `Russian` language.
+- Update `Spanish` language.
+
 # 1.1.0
 
 ## i18n
