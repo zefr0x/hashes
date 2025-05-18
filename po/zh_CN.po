@@ -127,7 +127,7 @@ msgstr "John"
 
 #: hashes/ui/main_window.py:233
 msgid "translator-credits"
-msgstr "翻译人员"
+msgstr "mdogwoop"
 
 #: hashes/ui/main_window.py:242
 msgid "External Libraries"
