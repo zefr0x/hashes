@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.github.zefr0x.hashes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Meng Xiangxu <email@xiangxume.ng>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.github.zefr0x.hashes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"PO-Revision-Date: 2025-05-19 05:33+0800\n"
+"Last-Translator: Meng Xiangxu <email@xiangxume.ng>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 48.0\n"
+
+#: data/io.github.zefr0x.hashes.desktop.in:5
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
+msgid "Hashes"
+msgstr "哈希"
+
+#: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:7
+msgid "Identify hashing algorithms"
+msgstr "检测哈希算法"
+
+#: data/io.github.zefr0x.hashes.desktop.in:7
+msgid "Hash Identifier"
+msgstr "哈希标识符"
+
+#: data/io.github.zefr0x.hashes.desktop.in:13
+msgid "hash;hashcat;john;detect;identify"
+msgstr "哈希;hashcat;john;检测;识别"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:9
+msgid ""
+"This utility lets you conveniently find out what hashing algorithm has been "
+"used on a particular string."
+msgstr "该应用程序可以让您方便地找出哈希值上使用了哪种散列算法。"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:10
+msgid "Features:"
+msgstr "特点:"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:12
+msgid "📺 Popularity Ratings - Most popular hashes showed first."
+msgstr "📺 人气评级 - 优先显示最常用的哈希算法。"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:13
+msgid ""
+"👵 Updated! - A new hash algorithm database is used in the identification "
+"process."
+msgstr "👵 更新！- 识别过程中使用了新的哈希算法数据库。"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:17
+msgid "zefr0x"
+msgstr "zefr0x"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:26
+msgid "hash"
+msgstr "哈希"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:27
+msgid "hashcat"
+msgstr "hashcat"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:28
+msgid "john"
+msgstr "john"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:29
+msgid "detect"
+msgstr "检测"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:30
+msgid "identify"
+msgstr "识别"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+msgid "Main window with a valid hash string (Light Theme)"
+msgstr "带有有效哈希字符串的主窗口（浅色主题）"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+msgid "Main window with a valid hash string (Dark Theme)"
+msgstr "带有有效哈希字符串的主窗口（深色主题）"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+msgid "Main window with a valid hash string (Small, Light Theme)"
+msgstr "带有有效哈希字符串的主窗口（小窗口浅色主题）"
+
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+msgid "Main window with a valid hash string (Small, Dark Theme)"
+msgstr "带有有效哈希字符串的主窗口（小窗口深色主题）"
+
+#: hashes/ui/main_window.py:54
+msgid "Enter a hash text"
+msgstr "输入哈希值"
+
+#: hashes/ui/main_window.py:69
+msgid "Waiting for input…"
+msgstr "等待输入哈希…"
+
+#: hashes/ui/main_window.py:71
+msgid "Can't find an algorithm that matches your input!"
+msgstr "找不到匹配的算法！"
+
+#: hashes/ui/main_window.py:85
+msgid "Copied"
+msgstr "已复制"
+
+#: hashes/ui/main_window.py:166
+msgid "<b>Extended!</b>"
+msgstr "<b>扩展!</b>"
+
+#: hashes/ui/main_window.py:177
+msgid "Hashcat"
+msgstr "Hashcat"
+
+#: hashes/ui/main_window.py:191
+msgid "John"
+msgstr "John"
+
+#: hashes/ui/main_window.py:233
+msgid "translator-credits"
+msgstr "mdogwoop https://github.com/mdogwoop"
+
+#: hashes/ui/main_window.py:242
+msgid "External Libraries"
+msgstr "使用的外部库"
