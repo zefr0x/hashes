@@ -35,7 +35,7 @@ msgstr "哈希标识符"
 
 #: data/io.github.zefr0x.hashes.desktop.in:13
 msgid "hash;hashcat;john;detect;identify"
-msgstr "hash;hashcat;john;检测;识别"
+msgstr "哈希;hashcat;john;检测;识别"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:9
 msgid ""
@@ -63,7 +63,7 @@ msgstr "zefr0x"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:26
 msgid "hash"
-msgstr "hash"
+msgstr "哈希"
 
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:27
 msgid "hashcat"
