@@ -1,5 +1,15 @@
 # Unreleased
 
+# 1.1.2
+
+## i18n
+
+- Add `Chinese` language.
+
+## Improvements
+
+- Copied toast is showed only when the copy success.
+
 # 1.1.1
 
 ## i18n
