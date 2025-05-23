@@ -1,7 +1,7 @@
 """Main file for the GUI."""
 
 import contextlib
-from typing import Sequence
+from collections.abc import Sequence
 
 import gi
 
