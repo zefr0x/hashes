@@ -1,6 +1,8 @@
 # This Github workflow will create a new release when a tag is pushed.
 
 name: release
+permissions:
+  "contents": "write"
 on:
   push:
     tags:
