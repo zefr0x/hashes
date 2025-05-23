@@ -211,13 +211,14 @@ class HashesMainWindow(Adw.ApplicationWindow):
 
         def handler(*_args: list, **_kargs: dict) -> None:
             """Clipboard setter."""
+            self._toast_copied.dismiss()
+
             try:
                 Gdk.Display.get_default().get_clipboard().set(text)  # type: ignore[union-attr]
-
-                self._toast_copied.dismiss()
-                self._overlay.add_toast(self._toast_copied)
             except AttributeError:
                 logging.exception("Error: Can't find GDK display to access clipboard.")
+            else:
+                self._overlay.add_toast(self._toast_copied)
 
         return handler
 
