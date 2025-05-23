@@ -1,9 +1,68 @@
 [tool.ruff.lint]
-select = ["F", "E", "W", "C90", "I", "N", "D", "UP", "YTT", "ANN", "ASYNC", "S", "BLE", "FBT", "B", "A", "COM", "C4", "DTZ", "T10", "EM", "EXE", "ISC", "ICN", "G", "INP", "PIE", "T20", "PYI", "PT", "Q", "RSE", "RET", "SLF", "SLOT", "SIM", "TID", "TCH", "INT", "ARG", "PTH", "TD", "FIX", "ERA", "PGH", "TRY", "FLY", "PERF", "FURB", "LOG", "RUF"]
+select = [
+  "F",
+  "E",
+  "W",
+  "C90",
+  "I",
+  "N",
+  "D",
+  "UP",
+  "YTT",
+  "ANN",
+  "ASYNC",
+  "S",
+  "BLE",
+  "FBT",
+  "B",
+  "A",
+  "COM",
+  "C4",
+  "DTZ",
+  "T10",
+  "EM",
+  "EXE",
+  "ISC",
+  "ICN",
+  "G",
+  "INP",
+  "PIE",
+  "T20",
+  "PYI",
+  "PT",
+  "Q",
+  "RSE",
+  "RET",
+  "SLF",
+  "SLOT",
+  "SIM",
+  "TID",
+  "TCH",
+  "INT",
+  "ARG",
+  "PTH",
+  "TD",
+  "TC",
+  "FIX",
+  "ERA",
+  "PGH",
+  "PL",
+  "TRY",
+  "FLY",
+  "PERF",
+  "FURB",
+  "LOG",
+  "RUF",
+  # "AIR",
+  # "FAST",
+  # "DJ"
+  # "NPY",
+  # "PD",
+]
 
-ignore = ["D203", "D212", "ANN101", "ANN102", "COM812", "ISC001", "TD002", "TD003", "FIX"]
+ignore = ["D203", "D212", "COM812", "ISC001", "TD002", "TD003", "FIX"]
 
-extend-per-file-ignores."test_*" = ["S101", "S311"]
+extend-per-file-ignores."test_*" = ["S101", "S311", "INP001", "PLR2004"]
 extend-per-file-ignores."hashes/__main__.py" = ["EXE001", "EXE003"]
 
 task-tags = ["FIX", "TODO", "HACK", "WARN", "PERF", "NOTE"]
