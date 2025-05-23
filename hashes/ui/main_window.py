@@ -25,6 +25,8 @@ from gi.repository import (  # noqa: E402
     Gtk,
 )
 
+logger = logging.getLogger(__name__)
+
 
 class HashesMainWindow(Adw.ApplicationWindow):
     """Main window."""
@@ -216,7 +218,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
             try:
                 Gdk.Display.get_default().get_clipboard().set(text)  # type: ignore[union-attr]
             except AttributeError:
-                logging.exception("Error: Can't find GDK display to access clipboard.")
+                logger.exception("Error: Can't find GDK display to access clipboard.")
             else:
                 self._overlay.add_toast(self._toast_copied)
 
