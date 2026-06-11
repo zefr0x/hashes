@@ -17,6 +17,16 @@
         <name translatable="no">zefr0x</name>
     </developer>
     <launchable type="desktop-id">io.github.zefr0x.hashes.desktop</launchable>
+    <requires>
+        <internet>offline-only</internet>
+        <display_length compare="ge">200</display_length>
+    </requires>
+    <recommends>
+        <display_length compare="ge">250</display_length>
+        <control>touch</control>
+        <control>pointing</control>
+        <control>keyboard</control>
+    </recommends>
     <content_rating type="oars-1.0"></content_rating>
     <translation type="gettext" source_locale="en_GB">io.github.zefr0x.hashes</translation>
     <categories>
