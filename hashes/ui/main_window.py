@@ -162,6 +162,7 @@ class HashesMainWindow(Adw.ApplicationWindow):
         )
 
         if result["extended"]:
+            # TODO: Find a better place for this, currently it is not the best for UX.
             result_flags_box.append(
                 Gtk.Image(
                     icon_name="emblem-important-symbolic",
@@ -170,33 +171,43 @@ class HashesMainWindow(Adw.ApplicationWindow):
                 )
             )
 
+        hashcat_button = Gtk.Button(
+            child=Adw.ButtonContent(
+                icon_name="edit-copy-symbolic",
+                label=_("Hashcat"),
+            ),
+            css_classes=("flat",),
+        )
+        result_flags_box.append(hashcat_button)
+
+        john_button = Gtk.Button(
+            child=Adw.ButtonContent(
+                icon_name="edit-copy-symbolic",
+                label=_("John"),
+            ),
+            css_classes=("flat",),
+        )
+        result_flags_box.append(john_button)
+
         if result["hashcat"]:
             hashcat_id = str(result["hashcat"])
 
-            button = Gtk.Button(
-                child=Adw.ButtonContent(
-                    icon_name="edit-copy-symbolic",
-                    label=_("Hashcat"),
-                    tooltip_text=hashcat_id,
-                ),
-                css_classes=("flat",),
-            )
-            result_flags_box.append(button)
-            button.connect("clicked", self.__clipboard_clauser(hashcat_id))
+            hashcat_button.set_tooltip_text(hashcat_id)
+
+            hashcat_button.connect("clicked", self.__clipboard_clauser(hashcat_id))
+        else:
+            hashcat_button.set_tooltip_text(_("Unsupported"))
+            hashcat_button.set_sensitive(False)
 
         if result["john"]:
             john_id = str(result["john"])
 
-            button = Gtk.Button(
-                child=Adw.ButtonContent(
-                    icon_name="edit-copy-symbolic",
-                    label=_("John"),
-                    tooltip_text=john_id,
-                ),
-                css_classes=("flat",),
-            )
-            result_flags_box.append(button)
-            button.connect("clicked", self.__clipboard_clauser(john_id))
+            john_button.set_tooltip_text(john_id)
+
+            john_button.connect("clicked", self.__clipboard_clauser(john_id))
+        else:
+            john_button.set_tooltip_text(_("Unsupported"))
+            john_button.set_sensitive(False)
 
         return Gtk.Frame(
             label_widget=Gtk.Label(
