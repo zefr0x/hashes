@@ -5,6 +5,8 @@ import gettext
 import locale
 import sys
 
+from hashes.ui.main import main_ui
+
 APP_ID = "@APP_ID@"
 PKG_DATA_DIR = "@pkgdatadir@"
 LOCALE_DIR = "@localedir@"
@@ -19,8 +21,6 @@ gettext.textdomain(APP_ID)
 
 def main() -> int:
     """Entry point for the application."""
-    from hashes.ui.main import main_ui
-
     main_ui(sys.argv)
 
     return 0

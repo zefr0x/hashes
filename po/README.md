@@ -1,10 +1,13 @@
-You can use [Gtranslator](https://flathub.org/apps/org.gnome.Gtranslator) or [Lokalize](https://apps.kde.org/lokalize/) to edit `.po` files.
+You can use [Gtranslator](https://flathub.org/apps/org.gnome.Gtranslator) or [Lokalize](https://apps.kde.org/lokalize/)
+to edit `.po` files.
 
 ## Adding New Language
 
 1. Find your language's locale code.
 
-> Locale codes are typically of the form language[_territory], where language is an [ISO 639 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), territory is an [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes).
+> Locale codes are typically of the form language[_territory], where language is an
+> [ISO 639 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), territory is an
+> [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes).
 >
 > Source: https://wiki.archlinux.org/title/locale#Generating_locales
 

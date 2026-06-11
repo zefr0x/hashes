@@ -1,8 +1,8 @@
 """Main application window."""
 
 import logging
+from collections.abc import Callable
 from gettext import gettext as _
-from typing import Callable
 
 import gi
 from name_that_hash.runner import api_return_hashes_as_dict

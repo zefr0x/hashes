@@ -4,17 +4,23 @@
 
 For now [GitHub bug traker](https://github.com/zefr0x/hashes/issues) is used for this project.
 
-We aim to be user friendly, so if you have any issue or suggestion for the [UI](https://en.wikipedia.org/wiki/User_interface_design)/[UX](https://en.wikipedia.org/wiki/User_experience_design) or about the [application packging](<https://en.wikipedia.org/wiki/Package_(package_management_system)>), please tell us, we appreciate it.
+We aim to be user friendly, so if you have any issue or suggestion for the
+[UI](https://en.wikipedia.org/wiki/User_interface_design)/[UX](https://en.wikipedia.org/wiki/User_experience_design) or
+about the [application packging](https://en.wikipedia.org/wiki/Package_(package_management_system)), please tell us, we
+appreciate it.
 
 ## Development
 
-- The 3rd version of the [Python](<https://en.wikipedia.org/wiki/Python_(programming_language)>) programming language is used mainly in this project.
+- The 3rd version of the [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) programming language is
+  used mainly in this project.
 - Dependencies managment is handled using [requirements files](requirements) with [uv](https://github.com/astral-sh/uv).
-  - `requirements.in` contain requirements for running the application and `requirements-dev.in` contain requirements for development.
+  - `requirements.in` contain requirements for running the application and `requirements-dev.in` contain requirements
+    for development.
   - `.txt` files are locked requirements with hashes generated using `uv` to provide a reproducible environment.
   - For development you will need to use both files, while users just need to use the `requirements.txt` file.
 
-> `pre-commit` will take care about generating `.txt` files. You should just edit `.in` files or use `uv` to upgrade locked requirements.
+> `pre-commit` will take care about generating `.txt` files. You should just edit `.in` files or use `uv` to upgrade
+> locked requirements.
 
 ### Create a virtual environment and install dependencies
 
@@ -51,7 +57,8 @@ python3 -m hashes
 ### Style
 
 - You should [type hint](https://docs.python.org/3/library/typing.html) every thing as possible.
-- You should comment every thing to keep the code easy to read. Every file, every class, every function and any line that need a comment.
+- You should comment every thing to keep the code easy to read. Every file, every class, every function and any line
+  that need a comment.
 
 You should use:
 
@@ -62,7 +69,8 @@ You can also use any tool that you want as long as it's compatable with the requ
 
 #### Installing `pre-commit`
 
-To make every thing easy [**`pre-commit`**](https://pre-commit.com/) is used in this project, it should run in every commit, so you shouldn't commit any thing without checking it first.
+To make every thing easy [**`pre-commit`**](https://pre-commit.com/) is used in this project, it should run in every
+commit, so you shouldn't commit any thing without checking it first.
 
 First install it:
 
@@ -84,7 +92,9 @@ TODO...
 
 ## Translation
 
-The application's GUI is prepared for [internationalisation](https://en.wikipedia.org/wiki/Internationalization_and_localization) using [gettext](https://en.wikipedia.org/wiki/Gettext).
+The application's GUI is prepared for
+[internationalisation](https://en.wikipedia.org/wiki/Internationalization_and_localization) using
+[gettext](https://en.wikipedia.org/wiki/Gettext).
 
 Go to the [`./po`](./po) directory for more details.
 
