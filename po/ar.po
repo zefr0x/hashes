@@ -131,7 +131,7 @@ msgstr "جون"
 
 #: hashes/ui/main_window.py:199 hashes/ui/main_window.py:209
 msgid "Unsupported"
-msgstr ""
+msgstr "لا يَدْعمُها"
 
 #: hashes/ui/main_window.py:247
 msgid "translator-credits"
