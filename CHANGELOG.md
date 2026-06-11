@@ -1,5 +1,12 @@
 # Unreleased
 
+# 1.1.3
+
+## Improvements
+
+- Show disabled Hashcat and John buttons rather than hiding them when they don't support the algorithm
+- Set a minimum window size and improve the default one
+
 # 1.1.2
 
 ## i18n

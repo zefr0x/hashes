@@ -1,6 +1,6 @@
 project(
   'hashes',
-  version : '1.1.2',
+  version : '1.1.3',
   license : 'GPL3',
   default_options : ['warning_level=2'],
 )
