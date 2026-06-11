@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"POT-Creation-Date: 2026-06-12 00:11+0300\n"
 "PO-Revision-Date: 2024-05-11 14:57+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
@@ -19,21 +19,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Gtranslator 46.1\n"
 
-#: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
+#: data/io.github.zefr0x.hashes.desktop.in:4
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:38
 msgid "Hashes"
 msgstr "Hashes"
 
-#: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.desktop.in:5
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:7
 msgid "Identify hashing algorithms"
 msgstr "हैशिंग कलन विधि को पहचानें"
 
-#: data/io.github.zefr0x.hashes.desktop.in:7
+#: data/io.github.zefr0x.hashes.desktop.in:6
 msgid "Hash Identifier"
 msgstr "हैश पहचानकर्ता"
 
-#: data/io.github.zefr0x.hashes.desktop.in:13
+#: data/io.github.zefr0x.hashes.desktop.in:12
 msgid "hash;hashcat;john;detect;identify"
 msgstr "हैश;हैशकैट;जॉन;पता लगाएं;पहचाने;"
 
@@ -64,59 +64,59 @@ msgstr ""
 msgid "zefr0x"
 msgstr "zefr0x"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:26
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:36
 msgid "hash"
 msgstr "हैश"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:27
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:37
 msgid "hashcat"
 msgstr "हैशकैट"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:28
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:38
 msgid "john"
 msgstr "जॉन"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:39
 msgid "detect"
 msgstr "पता लगाएं"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:30
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:40
 msgid "identify"
 msgstr "पहचाने"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:72
 msgid "Main window with a valid hash string (Light Theme)"
 msgstr ""
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:76
 msgid "Main window with a valid hash string (Dark Theme)"
 msgstr ""
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:80
 msgid "Main window with a valid hash string (Small, Light Theme)"
 msgstr ""
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:84
 msgid "Main window with a valid hash string (Small, Dark Theme)"
 msgstr ""
 
-#: hashes/ui/main_window.py:54
+#: hashes/ui/main_window.py:57
 msgid "Enter a hash text"
 msgstr "हैश पाठ दर्ज करें"
 
-#: hashes/ui/main_window.py:69
+#: hashes/ui/main_window.py:72
 msgid "Waiting for input…"
 msgstr "आगत की प्रतीक्षा में…"
 
-#: hashes/ui/main_window.py:71
+#: hashes/ui/main_window.py:74
 msgid "Can't find an algorithm that matches your input!"
 msgstr "आपके आगत से मेल खाने वाला कलन विधि नहीं मिल सकी!"
 
-#: hashes/ui/main_window.py:85
+#: hashes/ui/main_window.py:88
 msgid "Copied"
 msgstr "कॉपी किया गया"
 
-#: hashes/ui/main_window.py:166
+#: hashes/ui/main_window.py:169
 msgid "<b>Extended!</b>"
 msgstr "<b>विस्तारित!</b>"
 
@@ -124,14 +124,18 @@ msgstr "<b>विस्तारित!</b>"
 msgid "Hashcat"
 msgstr "हैशकैट"
 
-#: hashes/ui/main_window.py:191
+#: hashes/ui/main_window.py:186
 msgid "John"
 msgstr "जॉन"
 
-#: hashes/ui/main_window.py:233
+#: hashes/ui/main_window.py:199 hashes/ui/main_window.py:209
+msgid "Unsupported"
+msgstr ""
+
+#: hashes/ui/main_window.py:247
 msgid "translator-credits"
 msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
-#: hashes/ui/main_window.py:242
+#: hashes/ui/main_window.py:256
 msgid "External Libraries"
 msgstr "बाहरी लाइब्रेरी"

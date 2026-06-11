@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"POT-Creation-Date: 2026-06-12 00:11+0300\n"
 "PO-Revision-Date: 2024-09-24 22:44+0300\n"
 "Last-Translator: zefr0x <zer0-x.7ty50@aleeas.com>\n"
 "Language-Team: Arabic\n"
@@ -20,21 +20,21 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Gtranslator 46.1\n"
 
-#: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
+#: data/io.github.zefr0x.hashes.desktop.in:4
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:38
 msgid "Hashes"
 msgstr "تجزئات"
 
-#: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.desktop.in:5
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:7
 msgid "Identify hashing algorithms"
 msgstr "تعرَّف على خوارزميات التَّلبيد"
 
-#: data/io.github.zefr0x.hashes.desktop.in:7
+#: data/io.github.zefr0x.hashes.desktop.in:6
 msgid "Hash Identifier"
 msgstr "عَرَّافُ التجزئة"
 
-#: data/io.github.zefr0x.hashes.desktop.in:13
+#: data/io.github.zefr0x.hashes.desktop.in:12
 msgid "hash;hashcat;john;detect;identify"
 msgstr "هاش;تجزئة;تلبيد;كات;جون;كشف;تعرف;"
 
@@ -65,59 +65,59 @@ msgstr ""
 msgid "zefr0x"
 msgstr "zefr0x"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:26
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:36
 msgid "hash"
 msgstr "تلبيد"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:27
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:37
 msgid "hashcat"
 msgstr "هاش كات"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:28
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:38
 msgid "john"
 msgstr "جون"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:39
 msgid "detect"
 msgstr "كشف"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:30
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:40
 msgid "identify"
 msgstr "تعرف"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:72
 msgid "Main window with a valid hash string (Light Theme)"
 msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (الوضع المضيء)"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:76
 msgid "Main window with a valid hash string (Dark Theme)"
 msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (الوضع المظلم)"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:80
 msgid "Main window with a valid hash string (Small, Light Theme)"
 msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (مُصَغَّرَة، الوضع المضيء)"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:84
 msgid "Main window with a valid hash string (Small, Dark Theme)"
 msgstr "التَّعَرُّف على نَصْ تجزئة صالح في النافذة الرئيسة (مُصَغَّرَة، الوضع المظلم)"
 
-#: hashes/ui/main_window.py:54
+#: hashes/ui/main_window.py:57
 msgid "Enter a hash text"
 msgstr "أدخِل نَصْ تجزِئة"
 
-#: hashes/ui/main_window.py:69
+#: hashes/ui/main_window.py:72
 msgid "Waiting for input…"
 msgstr "فِي اِنتظار الإدخال…"
 
-#: hashes/ui/main_window.py:71
+#: hashes/ui/main_window.py:74
 msgid "Can't find an algorithm that matches your input!"
 msgstr "تعذَّر العثور على خوارزمية تُطابق مدخلاتك!"
 
-#: hashes/ui/main_window.py:85
+#: hashes/ui/main_window.py:88
 msgid "Copied"
 msgstr "نُسِخ"
 
-#: hashes/ui/main_window.py:166
+#: hashes/ui/main_window.py:169
 msgid "<b>Extended!</b>"
 msgstr "<b>مُطوَّلة!</b>"
 
@@ -125,14 +125,18 @@ msgstr "<b>مُطوَّلة!</b>"
 msgid "Hashcat"
 msgstr "هاش كات"
 
-#: hashes/ui/main_window.py:191
+#: hashes/ui/main_window.py:186
 msgid "John"
 msgstr "جون"
 
-#: hashes/ui/main_window.py:233
+#: hashes/ui/main_window.py:199 hashes/ui/main_window.py:209
+msgid "Unsupported"
+msgstr ""
+
+#: hashes/ui/main_window.py:247
 msgid "translator-credits"
 msgstr "zefr0x https://github.com/zefr0x"
 
-#: hashes/ui/main_window.py:242
+#: hashes/ui/main_window.py:256
 msgid "External Libraries"
 msgstr "مكتباتٌ برمجيةٌ خارجية"

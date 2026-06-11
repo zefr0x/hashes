@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"POT-Creation-Date: 2026-06-12 00:11+0300\n"
 "PO-Revision-Date: 2024-04-20 12:05+0200\n"
 "Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
@@ -19,21 +19,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Gtranslator 45.3\n"
 
-#: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
+#: data/io.github.zefr0x.hashes.desktop.in:4
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:38
 msgid "Hashes"
 msgstr "Хешове"
 
-#: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.desktop.in:5
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:7
 msgid "Identify hashing algorithms"
 msgstr "Идентифицирайте алгоритми за хеширане"
 
-#: data/io.github.zefr0x.hashes.desktop.in:7
+#: data/io.github.zefr0x.hashes.desktop.in:6
 msgid "Hash Identifier"
 msgstr "Хеш Идентификатор"
 
-#: data/io.github.zefr0x.hashes.desktop.in:13
+#: data/io.github.zefr0x.hashes.desktop.in:12
 msgid "hash;hashcat;john;detect;identify"
 msgstr "хеш;засичане;идентифициране;"
 
@@ -66,61 +66,61 @@ msgstr ""
 msgid "zefr0x"
 msgstr "zefr0x"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:26
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:36
 msgid "hash"
 msgstr "хеш"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:27
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:37
 msgid "hashcat"
 msgstr "hashcat"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:28
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:38
 msgid "john"
 msgstr "john"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:39
 msgid "detect"
 msgstr "засичане"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:30
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:40
 msgid "identify"
 msgstr "идентифициране"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:72
 msgid "Main window with a valid hash string (Light Theme)"
 msgstr ""
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:76
 msgid "Main window with a valid hash string (Dark Theme)"
 msgstr ""
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:80
 msgid "Main window with a valid hash string (Small, Light Theme)"
 msgstr ""
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:84
 msgid "Main window with a valid hash string (Small, Dark Theme)"
 msgstr ""
 
-#: hashes/ui/main_window.py:54
+#: hashes/ui/main_window.py:57
 msgid "Enter a hash text"
 msgstr "Въведете хеш текст"
 
-#: hashes/ui/main_window.py:69
+#: hashes/ui/main_window.py:72
 msgid "Waiting for input…"
 msgstr "Изчакване на въвеждане…"
 
-#: hashes/ui/main_window.py:71
+#: hashes/ui/main_window.py:74
 msgid "Can't find an algorithm that matches your input!"
 msgstr ""
 "Неуспешно намиране на алгоритъм, който да отговаря на въведените от вас "
 "данни!"
 
-#: hashes/ui/main_window.py:85
+#: hashes/ui/main_window.py:88
 msgid "Copied"
 msgstr ""
 
-#: hashes/ui/main_window.py:166
+#: hashes/ui/main_window.py:169
 msgid "<b>Extended!</b>"
 msgstr "<b>Допълнения!</b>"
 
@@ -128,14 +128,18 @@ msgstr "<b>Допълнения!</b>"
 msgid "Hashcat"
 msgstr "Hashcat"
 
-#: hashes/ui/main_window.py:191
+#: hashes/ui/main_window.py:186
 msgid "John"
 msgstr "John"
 
-#: hashes/ui/main_window.py:233
+#: hashes/ui/main_window.py:199 hashes/ui/main_window.py:209
+msgid "Unsupported"
+msgstr ""
+
+#: hashes/ui/main_window.py:247
 msgid "translator-credits"
 msgstr "twlvnn <kraft_werk@tutanota.com>"
 
-#: hashes/ui/main_window.py:242
+#: hashes/ui/main_window.py:256
 msgid "External Libraries"
 msgstr "Външни библиотеки"

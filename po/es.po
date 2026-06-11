@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.zefr0x.hashes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-25 02:46+0300\n"
+"POT-Creation-Date: 2026-06-12 00:11+0300\n"
 "PO-Revision-Date: 2025-01-03 13:00-0300\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -17,21 +17,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: data/io.github.zefr0x.hashes.desktop.in:5
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:36
+#: data/io.github.zefr0x.hashes.desktop.in:4
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:6 hashes/ui/main_window.py:38
 msgid "Hashes"
 msgstr "Hashes"
 
-#: data/io.github.zefr0x.hashes.desktop.in:6
+#: data/io.github.zefr0x.hashes.desktop.in:5
 #: data/io.github.zefr0x.hashes.metainfo.xml.in:7
 msgid "Identify hashing algorithms"
 msgstr "Identificar los algoritmos hash"
 
-#: data/io.github.zefr0x.hashes.desktop.in:7
+#: data/io.github.zefr0x.hashes.desktop.in:6
 msgid "Hash Identifier"
 msgstr "Identificador Hash"
 
-#: data/io.github.zefr0x.hashes.desktop.in:13
+#: data/io.github.zefr0x.hashes.desktop.in:12
 msgid "hash;hashcat;john;detect;identify"
 msgstr "hash;hashcat;john;detectar;identificar"
 
@@ -65,59 +65,59 @@ msgstr ""
 msgid "zefr0x"
 msgstr "zefr0x"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:26
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:36
 msgid "hash"
 msgstr "hash"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:27
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:37
 msgid "hashcat"
 msgstr "hashcat"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:28
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:38
 msgid "john"
 msgstr "john"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:29
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:39
 msgid "detect"
 msgstr "detectar"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:30
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:40
 msgid "identify"
 msgstr "identificar"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:53
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:72
 msgid "Main window with a valid hash string (Light Theme)"
 msgstr "Ventana principal con una cadena hash válida (Tema Claro)"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:57
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:76
 msgid "Main window with a valid hash string (Dark Theme)"
 msgstr "Ventana principal con una cadena hash válida (Tema oscuro)"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:61
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:80
 msgid "Main window with a valid hash string (Small, Light Theme)"
 msgstr "Ventana principal con una cadena hash válida (Tema pequeño y claro)"
 
-#: data/io.github.zefr0x.hashes.metainfo.xml.in:65
+#: data/io.github.zefr0x.hashes.metainfo.xml.in:84
 msgid "Main window with a valid hash string (Small, Dark Theme)"
 msgstr "Ventana principal con una cadena hash válida (Pequeño, Tema oscuro)"
 
-#: hashes/ui/main_window.py:54
+#: hashes/ui/main_window.py:57
 msgid "Enter a hash text"
 msgstr "Introduzca un texto hash"
 
-#: hashes/ui/main_window.py:69
+#: hashes/ui/main_window.py:72
 msgid "Waiting for input…"
 msgstr "Esperando entrada…"
 
-#: hashes/ui/main_window.py:71
+#: hashes/ui/main_window.py:74
 msgid "Can't find an algorithm that matches your input!"
 msgstr "¡No encuentro ningún algoritmo que se ajuste a tus datos!"
 
-#: hashes/ui/main_window.py:85
+#: hashes/ui/main_window.py:88
 msgid "Copied"
 msgstr "Copiado"
 
-#: hashes/ui/main_window.py:166
+#: hashes/ui/main_window.py:169
 msgid "<b>Extended!</b>"
 msgstr "<b>¡Extendido!</b>"
 
@@ -125,14 +125,18 @@ msgstr "<b>¡Extendido!</b>"
 msgid "Hashcat"
 msgstr "Hashcat"
 
-#: hashes/ui/main_window.py:191
+#: hashes/ui/main_window.py:186
 msgid "John"
 msgstr "John"
 
-#: hashes/ui/main_window.py:233
+#: hashes/ui/main_window.py:199 hashes/ui/main_window.py:209
+msgid "Unsupported"
+msgstr ""
+
+#: hashes/ui/main_window.py:247
 msgid "translator-credits"
 msgstr "haggen88 https://github.com/haggen88"
 
-#: hashes/ui/main_window.py:242
+#: hashes/ui/main_window.py:256
 msgid "External Libraries"
 msgstr "Bibliotecas externas"
