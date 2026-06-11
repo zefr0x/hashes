@@ -36,9 +36,10 @@ class HashesMainWindow(Adw.ApplicationWindow):
         super().__init__(
             application=application,
             title=_("Hashes"),
-            default_width=500,
+            default_width=950,
             default_height=800,
         )
+        self.set_size_request(486, 200)
 
         # Main layout
         main_layout = Adw.ToolbarView()
