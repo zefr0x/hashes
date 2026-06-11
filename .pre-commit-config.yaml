@@ -4,17 +4,19 @@ ci:
 repos:
   # General
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-xml
       - id: debug-statements
       - id: end-of-file-fixer
       - id: name-tests-test
+        args:
+          - --pytest-test-first
       - id: trailing-whitespace
   # Python
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.15.0
+    rev: v2.1.0
     hooks:
       - id: mypy
         args:
@@ -24,10 +26,10 @@ repos:
           - PyGObject-stubs
           - name-that-hash
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.10
+    rev: v0.15.17
     hooks:
       - id: ruff
-        args: [ --fix ]
+        args: [--fix]
       - id: ruff-format
   # Prettier
   - repo: https://github.com/pre-commit/mirrors-prettier
@@ -41,7 +43,7 @@ repos:
       - id: pretty-format-ini
   # PIP requirements
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.7.5
+    rev: 0.11.21
     hooks:
       - id: pip-compile
         name: pip-compile requirements.in
