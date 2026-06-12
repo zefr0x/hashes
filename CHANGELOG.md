@@ -1,5 +1,11 @@
 # Unreleased
 
+# 1.1.4
+
+## Fixes
+
+- `hashes` module not found error.
+
 # 1.1.3
 
 ## Improvements

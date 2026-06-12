@@ -50,6 +50,9 @@
     <url type="vcs-browser">https://github.com/zefr0x/hashes</url>
     <url type="contribute">https://github.com/zefr0x/hashes/blob/main/CONTRIBUTING.md</url>
     <releases>
+        <release version="1.1.4" date="2026-06-12" urgency="low">
+            <url>https://github.com/zefr0x/hashes/blob/main/CHANGELOG.md</url>
+        </release>
         <release version="1.1.3" date="2026-06-12" urgency="low">
             <url>https://github.com/zefr0x/hashes/blob/main/CHANGELOG.md</url>
         </release>
